@@ -165,7 +165,7 @@
  ul {list-style-type: none;}
  body a {text-decoration: none;color: #232323; display: inline-block;font-family: 'Nunito Sans', sans-serif;}
  a:hover,a:focus,a:visited {text-decoration: none; outline: none;}
- img {max-width: 100%; display: block;}
+ img {max-width: 100%; display: block; }
  button {border:none;outline: none;box-shadow: none;display: block; padding: 0;cursor: pointer;}
  button:focus {outline: none;}
  input,textarea {outline: none; box-shadow: none;transition: all 0.3s ease-in-out;}
@@ -298,6 +298,14 @@ body .theme-button-one:hover {background:#000f32; }
 }
 .header-one .top-header .address-wrapper .address:first-child {margin-right: 35px;}
 /*--------------------------- Theme Header Two  ---------------------*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+}
 .header-two .top-header {background: #000f32;padding: 12px 0;}
 .header-two .top-header .left-widget li {display: inline-block;color: #fff;font-size: 16px;}
 #polyglotLanguageSwitcher {margin-left:25px;}
@@ -367,12 +375,13 @@ body .theme-button-one:hover {background:#000f32; }
   -webkit-transform:none !important;
           transform:none !important;
   position: absolute;
-  height:55px;
-  width:280px;
+  
+  height:400px;
+  width: 210px;
   padding: 5px;
   border-radius: 0;
   right: 0 !important;
-  left:auto !important;
+  left:0 !important;
   top:100% !important;
   box-shadow: none;
   border:none;
@@ -381,6 +390,7 @@ body .theme-button-one:hover {background:#000f32; }
   background: #fff;
   box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.23);
 }
+
 .theme-menu-wrapper .right-widget .search-option form input {
   position: absolute;
   top:5px;
@@ -410,7 +420,7 @@ body .theme-button-one:hover {background:#000f32; }
 .header-two #mega-menu-holder>ul> li> a:before,
 .header-two #mega-menu-holder li .sub-toggle {line-height: 97px;}
 .header-two #mega-menu-holder li>ul.dropdown li:first-child {border-top:1px solid rgba(0,0,0,0.04);}
-.header-two .theme-menu-wrapper .bg-wrapper {position: relative;padding-left: 330px;}
+.header-two .theme-menu-wrapper .bg-wrapper {position: relative;padding-left: 370px;}
 .header-two .theme-menu-wrapper .bg-wrapper .logo {
   position: absolute;
   left:0;

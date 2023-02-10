@@ -6,6 +6,19 @@
 							<div class="col-md-6 col-sm-8 col-12">
 								<ul class="left-widget">
 									<li>We are leading consultant firm!</li>
+									<li>
+										<div id="polyglotLanguageSwitcher">
+											<form action="#">
+												<select id="polyglot-language-options">
+													<option id="en" value="en" selected>English</option>
+													<option id="fr" value="fr">French</option>
+													<option id="de" value="de">German</option>
+													<option id="it" value="it">Italian</option>
+													<option id="es" value="es">Spanish</option>
+												</select>
+											</form>
+										</div> <!-- End #polyglotLanguageSwitcher -->
+									</li>
 								</ul>
 							</div>
 							<div class="col-md-6 col-sm-4 col-12">
@@ -20,35 +33,78 @@
 						</div> <!-- /.row -->
 					</div> <!-- /.container -->
 				</div> <!-- /.top-header -->
-				<div class="theme-menu-wrapper">
-					<div class="container">
+
+				<div class="theme-menu-wrapper ">
+					<div class="container .header">
 						<div class="bg-wrapper clearfix">
-							<div class="logo float-left"><a href="#"><img src="images/logo/logo.png" alt=""></a></div>
-							<!-- ============== Menu Warpper ================ -->
-					   		<div class="menu-wrapper float-left">
-					   			<nav id="mega-menu-holder" class="clearfix">
-								   <ul class="clearfix">
-									    <li class="active"><a href="#">Home</a></li>
-									    <li><a href="#">About Us</a></li>
-									    <li><a href="#">Why ESG Investment? </a></li>
-									    <li><a href="#">Our Services</a></li>
-									    <li><a href="#">Events & News</a></li>
-								   </ul>
-								</nav> <!-- /#mega-menu-holder -->
-					   		</div> <!-- /.menu-wrapper -->
-					   		<div class="right-widget float-right">
+							<div class="right-widget float-left">
 					   			<ul>
 					   				<li class="search-option">
 					   					<div class="dropdown">
-					   						<button type="button" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search" aria-hidden="true"></i></button>
-											<form action="#" class="dropdown-menu">
-												<input type="text" Placeholder="Enter Your Search">
-												<button><i class="fa fa-search"></i></button>
-											</form>
+					   						<button type="button" class="dropdown-toggle btnr" data-toggle="dropdown"><i class="fa fa-bars" aria-hidden="true"></i></button>
+											<ul class="dropdown-menu" >
+												<a><button class="dropdown-item" type="button">Home</button></a>
+												<a><button class="dropdown-item" type="button">About Us</button></a>
+												<a><button class="dropdown-item" type="button">Why ESG Investment?</button></a>
+												<a><button class="dropdown-item" type="button">Our Services</button></a>
+												<a><button class="dropdown-item" type="button">Events & News</button></a>
+											</ul>
+											
 					   					</div>
 					   				</li>
 					   			</ul>
-					   		</div> <!-- /.right-widget -->
+					   		</div>
+							<div class="logo float-left">
+								
+								
+								
+								<a href="index.html" style="padding: 10px;">
+									<img src="images/logo/logo.png" alt="">
+								</a>
+
+							</div>
+
+							<!-- ============== Menu Warpper ================ -->
+					   		<div class="menu-wrapper float-left">
+					   			<nav id="mega-menu-holder" class="clearfix">
+								
+								   <ul >
+									    
+										<li>
+											<NuxtLink to="/">
+											<a >Home</a>
+											</NuxtLink>
+										</li>
+										
+										<li>
+											<NuxtLink to="/about">
+											<a>About Us</a>
+											</NuxtLink>
+									    </li>
+									    <li>
+											<NuxtLink to="/esg">
+											<a>Why ESG Investment?</a>
+											</NuxtLink>
+									    </li>
+									    <li>
+											<NuxtLink to="/services">
+											<a href="#">Our Services</a>
+											</NuxtLink>
+									    </li>
+									    <li>
+											<NuxtLink to="/services">
+											<a href="#">Events & News	</a>
+											</NuxtLink>
+									    </li>
+							
+								   </ul>
+								</nav> <!-- /#mega-menu-holder -->
+					   		</div> <!-- /.menu-wrapper -->
+
+					
+
+
+
 						</div> <!-- /.bg-wrapper -->
 					</div> <!-- /.container -->
 				</div> <!-- /.theme-menu-wrapper -->

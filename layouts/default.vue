@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
     <Header />
-    <Body />
+    <Footer />
   </div>
 </template>

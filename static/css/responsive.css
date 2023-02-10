@@ -1,21 +1,24 @@
 /* Responsive CSS Document */
 
 /* 
-    Created on   : 23/05/2018.
-    Theme Name   : Charles-Business-Consulting HTML Template.
-    Version      : 1.0.
-    Author       : @CreativeGigs.
-    Developed by : Jubayer al hasan. (jubayer.hasan1991@gmail.com)
-   
 */
 
 @media (min-width: 992px) {
+  .btnr{
+    display: none;
+  }
+  .collapse-button{
+    display:none;
+  }
   .container {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
 }
 @media (max-width: 1199px) {
+  .menu-wrapper{
+    width: 500px;
+  }
   .feature-banner .opacity h2 {padding: 0;}
   .theme-footer-two .top-footer .footer-gallery .wrapper {padding-right: 0;}
   .shop-details .product-details .product-info {padding-left: 0;}
@@ -23,6 +26,7 @@
 /*(max-width: 1199px)*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
   .top-feature .main-content {padding-left: 10%;padding-right: 10%;}
   .header-one .top-header .address-wrapper .address:first-child {margin-right: 20px;}
   .header-one .top-header .address-wrapper .address {padding-right: 20px;}
@@ -44,11 +48,15 @@
 }
 /*(min-width: 992px) and (max-width: 1199px)*/
 
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
+  .btnr{
+    display: block;
+  }
+  .btn{padding: 0;border: none;}
   #mega-menu-holder>ul> li.has-submenu> a {padding-right: 52px;}
-  .section-spacing,.faq-section,.why-we-best,.error-page {margin-bottom: 80px;}
+  .section-spacing,.faq-section,.why-we-best,.error-page {margin-bottom: 80px; }
   .top-feature .main-content {padding: 30px 15px;}
-  .header-one .logo {width: 100%;text-align: center;margin-bottom: 20px;}
+  .header-one .logo {width: 100%;text-align: center;margin-bottom: 20px;  }
   .header-one .top-header {padding-top: 25px;}
   .header-one .top-header .address-wrapper .address .icon {font-size: 30px;}
   .header-one .top-header .address-wrapper .address {padding: 0 20px 0 45px;margin-right: 0;}
@@ -72,13 +80,15 @@
   .theme-footer-one .top-footer {padding: 60px 0 0 0;}
   .header-one .theme-menu-wrapper {margin-bottom: -31px;}
   .theme-menu-wrapper .right-widget .cart-icon a span {top:16px;}
+  .collapse-button{right:170%;}
   .header-two .theme-menu-wrapper .bg-wrapper .logo {left:50%;-webkit-transform:translate(-50% , -50%);transform:translate(-50% , -50%);}
   .header-two .theme-menu-wrapper .bg-wrapper {padding-left: 0;}
   .header-two .theme-menu-wrapper .right-widget ul li {line-height: 70px;}
   .header-two .theme-menu-wrapper .right-widget .cart-icon a span {top:20px;}
-  .header-two .collapse-button .icon-bar {background: #001a57;}
+  .header-two .collapse-button .icon-bar {background: #001a57; text-align:center;}
   .header-two .menu-collapser {margin: 22px 0;}
-  .header-two #mega-menu-holder>ul> li> a {padding-top: 0;padding-bottom: 0;}
+  .header-two #mega-menu-holder>ul { display: none;}
+  .header-two #mega-menu-holder>ul> li> a {padding-top: 0;padding-bottom: 0; display: none;}
   .header-two #mega-menu-holder li .sub-toggle {line-height: 40px;}
   .callout-banner,.callout-banner.no-bg .title {text-align: center;}
   .callout-banner .title,.callout-banner p {width: 100%;float: none;}
@@ -104,6 +114,7 @@
 /*(max-width: 991px)*/
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .btn{padding: 0;border: none;}
   .header-one .top-header .address-wrapper .address:first-child {margin-right: 20px;}
   .feature-banner .opacity h2 {font-size: 38px;line-height: 50px;}
   .service-style-one .single-service .text {padding-left: 10px;padding-right: 5px;}
@@ -115,6 +126,13 @@
 /*(min-width: 768px) and (max-width: 991px)*/
 
 @media (max-width: 767px) {
+
+  .dropdown-menu{
+    height:100px;
+    width: 200px;
+  }
+  .btn{border: none;}
+  .collapse-button{right:130%;}
   .header-one .top-header {padding-bottom: 0;}
   .header-one .top-header .address-wrapper {display: none;}
   .testimonial-section .wrapper .bg {padding-left: 15px;padding-right: 15px;}
@@ -143,6 +161,12 @@
 /*(max-width: 767px)*/
 
 @media (min-width: 576px) and (max-width: 767px) {
+  .dropdown-menu {
+    height:100px;
+    width: 200px;
+  }
+  .btn{padding: 0;border: none;}
+  .collapse-button{right:130%;}
   .header-two .top-header .social-icon li:first-child {margin-left: 0;}
   .our-case .single-case-block .hover-content .text {padding: 0;}
   #theme-main-banner {height: 500px !important;}
@@ -152,6 +176,8 @@
 /*(min-width: 576px) and (max-width: 767px)*/
 
 @media (max-width: 575px) {
+  .btn{padding: 0;border: none;}
+  .collapse-button{right:100%;}
   .theme-inner-banner .overlay h2 {font-size: 35px;}
   .header-one .theme-menu-wrapper {background: #000f32;}
   .header-one .menu-collapser {margin-left: 0;}
@@ -196,6 +222,8 @@
 /*(max-width: 575px)*/
 
 @media (max-width: 650px) {
+  .btn{padding: 0;border: none;}
+  .collapse-button{right:70%;}
   #success, #error {
     width: 86%;
     height: auto;
@@ -205,6 +233,8 @@
   } 
 }
 @media (max-width: 400px) {
+  .btn{padding: 0;border: none;}
+  .collapse-button{right:50%;}
   .service-style-one .single-service .text {padding-right: 5px;padding-left: 10px;}
   .service-style-one .single-service .text h5 {font-size: 18px;}
   .service-style-one .single-service .text p {padding-bottom: 5px;}
@@ -212,5 +242,6 @@
   .shop-page .shop-filter li,.project-details .project-details-sidebar .project-history li {width: 100%;}
 }
 @media (max-width: 380px) {
+  .collapse-button{right:30%;}
   .cunter-wrapper [class*="col-"] {max-width: 100%;flex: 0 0 100%;}
 }
