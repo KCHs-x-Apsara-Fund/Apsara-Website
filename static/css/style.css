@@ -420,7 +420,7 @@ body .theme-button-one:hover {background:#000f32; }
 .header-two #mega-menu-holder>ul> li> a:before,
 .header-two #mega-menu-holder li .sub-toggle {line-height: 97px;}
 .header-two #mega-menu-holder li>ul.dropdown li:first-child {border-top:1px solid rgba(0,0,0,0.04);}
-.header-two .theme-menu-wrapper .bg-wrapper {position: relative;padding-left: 370px;}
+.header-two .theme-menu-wrapper .bg-wrapper {position: relative;padding-left: 250px;}
 .header-two .theme-menu-wrapper .bg-wrapper .logo {
   position: absolute;
   left:0;
@@ -1884,6 +1884,15 @@ body .theme-button-one:hover {background:#000f32; }
   width: 30%;
   height: 380px;
 }
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	}
+	ul#horizontal-list li {
+		display: inline;
+    padding: 20px;
+      
+	}
 .shop-details .product-details .product-tab .product-thumbnail .nav-tabs {
   border: none;
   position: relative;

@@ -42,7 +42,7 @@
 					   				<li class="search-option">
 					   					<div class="dropdown">
 					   						<button type="button" class="dropdown-toggle btnr" data-toggle="dropdown"><i class="fa fa-bars" aria-hidden="true"></i></button>
-											<ul class="dropdown-menu" >
+											   <ul class="dropdown-menu" >
 												<a><button class="dropdown-item" type="button">Home</button></a>
 												<a><button class="dropdown-item" type="button">About Us</button></a>
 												<a><button class="dropdown-item" type="button">Why ESG Investment?</button></a>
@@ -67,30 +67,32 @@
 							<!-- ============== Menu Warpper ================ -->
 					   		<div class="menu-wrapper float-left">
 					   			<nav id="mega-menu-holder" class="clearfix">
-								
-								   <ul >
+								   <ul id="horizontal-list">
 									    
 										<li>
 											<NuxtLink to="/">
 											<a >Home</a>
 											</NuxtLink>
 										</li>
-										
+										<li>/</li>
 										<li>
 											<NuxtLink to="/about">
 											<a>About Us</a>
 											</NuxtLink>
 									    </li>
+										<li>/</li>
 									    <li>
 											<NuxtLink to="/esg">
 											<a>Why ESG Investment?</a>
 											</NuxtLink>
 									    </li>
+										<li>/</li>
 									    <li>
 											<NuxtLink to="/services">
 											<a href="#">Our Services</a>
 											</NuxtLink>
 									    </li>
+										<li>/</li>
 									    <li>
 											<NuxtLink to="/services">
 											<a href="#">Events & News	</a>
