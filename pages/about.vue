@@ -230,6 +230,17 @@
             :autoWidth="false"
             :dots="false"
             :margin="30"
+            :responsive="{
+              0: {
+                items: 1
+              },
+              600: {
+                items: 1
+              },
+              1000: {
+                items: 3
+              }
+            }"
           >
             <div class="item" v-for="i in 10" :key="i">
               <div class="single-value-block">
