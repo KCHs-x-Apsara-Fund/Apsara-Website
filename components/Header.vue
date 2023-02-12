@@ -66,35 +66,56 @@
                   <button
                     type="button"
                     class="dropdown-toggle btnr"
-                    data-toggle="dropdown"
-                  >
+                    data-toggle="dropdown">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                   </button>
                   <ul class="dropdown-menu">
-                    <a
-                      ><button class="dropdown-item" type="button">
+                    <a v-bind:class="{ active: currentRoute === '/' }">
+                      <NuxtLink to="/">
+                      <button class="dropdown-item" type="button">
                         Home
-                      </button></a
-                    >
-                    <a
-                      ><button class="dropdown-item" type="button">
+                      </button>
+                    </NuxtLink>
+                      </a>
+
+                    <a v-bind:class="{ active: currentRoute === '/about' }"
+                      ><NuxtLink to="/about">
+                      <button class="dropdown-item" type="button">
                         About Us
-                      </button></a
+                      </button>
+                    </NuxtLink>
+                      </a
                     >
-                    <a
-                      ><button class="dropdown-item" type="button">
+
+
+                    <a  v-bind:class="{ active: currentRoute === '/esg' }"
+                      >
+                      <NuxtLink to="/esg">
+                      <button class="dropdown-item" type="button">
                         Why ESG Investment?
-                      </button></a
+                      </button>
+                      </NuxtLink>
+                      
+                      </a
                     >
-                    <a
-                      ><button class="dropdown-item" type="button">
+                    
+                    <a v-bind:class="{ active: currentRoute === '/service' }"
+                      >
+                      <NuxtLink to="/service">
+                      <button class="dropdown-item" type="button">
                         Our Services
-                      </button></a
+                      </button>
+                    </NuxtLink>
+                      </a
                     >
-                    <a
-                      ><button class="dropdown-item" type="button">
+                    <a v-bind:class="{ active: currentRoute === '/event' }"
+                      >
+                      <NuxtLink to="/event">
+                      <button class="dropdown-item" type="button">
                         Events & News
-                      </button></a
+                      </button>
+                    </NuxtLink>
+                      </a
                     >
                   </ul>
                 </div>
