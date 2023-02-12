@@ -88,9 +88,9 @@
                     >
 
 
-                    <a  v-bind:class="{ active: currentRoute === '/esg' }"
+                    <a  v-bind:class="{ active: currentRoute === '/why' }"
                       >
-                      <NuxtLink to="/esg">
+                      <NuxtLink to="/why">
                       <button class="dropdown-item" type="button">
                         Why ESG Investment?
                       </button>
@@ -146,8 +146,8 @@
                   </NuxtLink>
                 </li>
                 <li>/</li>
-                <li v-bind:class="{ active: currentRoute === '/esg' }">
-                  <NuxtLink to="/esg">
+                <li v-bind:class="{ active: currentRoute === '/why' }">
+                  <NuxtLink to="/why">
                     <a>Why ESG Investment?</a>
                   </NuxtLink>
                 </li>
