@@ -241,7 +241,7 @@
   .theme-footer-one .top-footer .title {margin-bottom: 15px;}
   .theme-footer-one .top-footer [class*="col-"],.theme-footer-two .top-footer [class*="col-"] {margin-bottom: 50px;}
   .header-two .top-header,.header-two .top-header .social-icon {text-align: center;}
-  .header-two .top-header .left-widget li {margin: 0 10px;}
+  .header-two .top-header .left-widget li {margin: 0;}
   .header-two .top-header .social-icon li {margin: 8px 5px 0 5px;}
   #polyglotLanguageSwitcher {margin: 0;}
   .about-compnay-two .quote-form {padding: 25px 15px 30px 15px;}
