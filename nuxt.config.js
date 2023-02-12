@@ -86,6 +86,10 @@ export default {
 	content: {
 
 	},
+  
+  generate: {
+		dir: 'dist'
+	},
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {
 		postcss: {
