@@ -69,8 +69,6 @@ export default {
 		'@nuxt/content',
 		// https://github.com/nuxt-community/robots-module
 		'@nuxtjs/robots',
-		// https://sitemap.nuxtjs.org/
-		'@nuxtjs/sitemap',
 	],
 	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
 	buildModules: [
