@@ -123,8 +123,10 @@
             </ul>
           </div>
           <div class="logo float-left">
-            <a href="index.html" style="padding: 10px;">
+            <a  style="padding: 10px;">
+              <NuxtLink to="/">
               <img src="images/logo/logo.png" alt="" />
+            </NuxtLink>
             </a>
           </div>
 
