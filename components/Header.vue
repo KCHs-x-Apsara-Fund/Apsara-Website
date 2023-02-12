@@ -95,10 +95,10 @@
                         Why ESG Investment?
                       </button>
                       </NuxtLink>
-                      
+
                       </a
                     >
-                    
+
                     <a v-bind:class="{ active: currentRoute === '/service' }"
                       >
                       <NuxtLink to="/service">
@@ -108,9 +108,9 @@
                     </NuxtLink>
                       </a
                     >
-                    <a v-bind:class="{ active: currentRoute === '/event' }"
+                    <a v-bind:class="{ active: currentRoute === '/event_news' }"
                       >
-                      <NuxtLink to="/event">
+                      <NuxtLink to="/event_news">
                       <button class="dropdown-item" type="button">
                         Events & News
                       </button>
@@ -158,8 +158,8 @@
                   </NuxtLink>
                 </li>
                 <li>/</li>
-                <li v-bind:class="{ active: currentRoute === '/event' }">
-                  <NuxtLink to="/event">
+                <li v-bind:class="{ active: currentRoute === '/event_news' }">
+                  <NuxtLink to="/event_news">
                     <a>Events & News</a>
                   </NuxtLink>
                 </li>

@@ -1,6 +1,6 @@
 /* Responsive CSS Document */
 
-/* 
+/*
 */
 
 @media (min-width: 992px) {
@@ -116,7 +116,7 @@
   .theme-sidebar-one,.blog-sidebar {margin-top: 60px;}
   .contact-us-section .form-wrapper {height: auto;}
   #theme-main-banner .camera_pag {left:2px;}
-} 
+}
 /*(max-width: 991px)*/
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -144,7 +144,7 @@
 
     bottom: 10%;
     left: 20%;
-    
+
   }
   .HT{
     font-size: 30px;
@@ -170,12 +170,12 @@
   .core-values .single-value-block .text {padding-left: 15px;padding-right: 15px;}
   .shop-page .shop-filter {margin-bottom: 35px;}
   .theme-pagination ul {padding-top: 10px;}
-  .shop-details .product-review-tab {margin: 60px 0 55px 0;padding-left: 10px;padding-right: 10px;}
+  .our-project .product-review-tab {margin: 60px 0 55px 0;padding-left: 10px;padding-right: 10px;}
   .shop-details .related-product {margin-bottom: 10px;}
   .service-details .service-content .market-growth img {display: none;}
   .project-details-sidebar {margin-bottom: 60px;}
   .blog-details .single-blog .post-meta .mark-text .inner-text {padding-top: 70px;}
-  .blog-details .single-blog .post-meta .mark-text .inner-text:before {top:10px;} 
+  .blog-details .single-blog .post-meta .mark-text .inner-text:before {top:10px;}
   .contact-us-section .form-wrapper {padding: 40px 15px;}
   .google-map-two {height: 300px;}
   #theme-main-banner .camera_caption h1 br {display: none;}
@@ -271,7 +271,7 @@
     top: calc(50% - 50px);
     left: 7%;
     padding: 30px 10px;
-  } 
+  }
 }
 @media (max-width: 400px) {
   .btn{padding: 0;border: none;}
