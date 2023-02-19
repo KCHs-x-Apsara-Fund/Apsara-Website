@@ -1,319 +1,275 @@
 <template>
   <div>
     <TheInnerBanner title="About Us" />
-    <!--
-			=============================================
-				CallOut Banner
-			==============================================
-			-->
-    <div class="callout-banner no-bg">
-      <div class="container clearfix">
-        <h3 class="title">
-          High-Quality <br />
-          Market Experinces
-        </h3>
-        <p>
-          A tale of a fateful trip that started from this tropic port aboard
-          this tiny ship today still wanted by the government they survive as
-          soldiers of fortune to ever wondered the east side to a deluxe
-          apartment.
-        </p>
-        <a href="#" class="theme-button-one">CONTACT US</a>
-      </div>
-    </div>
-    <!-- /.callout-banner -->
 
     <!--
 			=============================================
-				About Company Stye Two
+				Service Details
 			==============================================
 			-->
-    <div class="about-compnay-two no-bg section-spacing">
-      <div class="overlay">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-12 text order-lg-last">
-              <div class="theme-title-one">
-                <h2>SHORT HISTORY</h2>
-              </div>
-              <!-- /.theme-title-one -->
-              <p>
-                A tale of a fateful trip that started from this tropic port
-                aboard this tiny ship today still wanted by the government they
-                survive as soldiers of fortune to a deluxe you apartment in the
-                sky to explore strange new worlds to seek out new life and new
-                civilizations to boldly go where no man has gone.
-              </p>
-              <p>
-                You would see the biggest gift would be from me and the card
-                attached would so thank you for being a friend the biggest gift.
-              </p>
-              <img src="images/home/sign-black.png" alt="" class="sign" />
-            </div>
-            <!-- /.col- -->
-            <div class="col-lg-6 col-12 order-lg-first">
-              <img src="images/home/15.jpg" alt="" class="left-img" />
-            </div>
-          </div>
-          <!-- /.row -->
-        </div>
-        <!-- /.container -->
-      </div>
-      <!-- /.overlay -->
-    </div>
-    <!-- /.about-compnay-two -->
-
-    <!--
-			=====================================================
-				Why We Best
-			=====================================================
-			-->
-    <div class="why-we-best">
-      <div class="overlay">
-        <div class="container">
-          <div class="theme-title-one">
-            <h2>WE ARE ALWAYS BEST</h2>
-            <p>
-              A tale of a fateful trip that started from this tropic port aboard
-              this tiny ship today stillers
-            </p>
-          </div>
-          <!-- /.theme-title-one -->
-
-          <div class="wrapper row no-gutters">
-            <div class="col-lg-6 col-12 order-lg-last">
-              <div class="img-box"></div>
-            </div>
-            <div class="col-lg-6 col-12 order-lg-first">
-              <ul class="best-list-item">
-                <li>
-                  <i class="icon flaticon-puzzle"></i>
-                  <h5><a href="#">Best Strategy</a></h5>
-                  <p>
-                    The Love Boat soon will be making another run plore strange
-                    tools enter new worlds.
-                  </p>
-                </li>
-                <li>
-                  <i class="icon flaticon-presentation"></i>
-                  <h5><a href="#">High-Quality Services</a></h5>
-                  <p>
-                    The Love Boat soon will be making another run plore strange
-                    tools enter new worlds.
-                  </p>
-                </li>
-                <li>
-                  <i class="icon flaticon-people"></i>
-                  <h5><a href="#">Friendly Support</a></h5>
-                  <p>
-                    The Love Boat soon will be making another run plore strange
-                    tools enter new worlds.
-                  </p>
-                </li>
-              </ul>
-            </div>
-            <!-- /.col- -->
-          </div>
-          <!-- /.wrapper -->
-        </div>
-        <!-- /.container -->
-      </div>
-      <!-- /.overlay -->
-    </div>
-    <!-- /.why-we-best -->
-
-    <!--
-			=====================================================
-				Theme Counter
-			=====================================================
-			-->
-    <div class="theme-counter-two section-spacing">
+    <div class="service-details ">
       <div class="container">
-        <div class="clearfix">
-          <div class="cunter-wrapper">
-            <div class="row">
-              <div class="col-md-3 col-6">
-                <div class="single-counter-box">
-                  <div class="number">
-                    <span
-                      class="timer"
-                      data-from="0"
-                      data-to="30"
-                      data-speed="1200"
-                      data-refresh-interval="5"
-                      >20 </span
-                    >+
-                  </div>
-                  <p>Years of Excellence</p>
-                </div>
-                <!-- /.single-counter-box -->
-              </div>
-              <!-- /.col- -->
-              <div class="col-md-3 col-6">
-                <div class="single-counter-box">
-                  <div class="number">
-                    <span
-                      class="timer"
-                      data-from="0"
-                      data-to="100"
-                      data-speed="1200"
-                      data-refresh-interval="5"
-                      >10</span
-                    >%
-                  </div>
-                  <p>Client Satisfaction</p>
-                </div>
-                <!-- /.single-counter-box -->
-              </div>
-              <!-- /.col- -->
-              <div class="col-md-3 col-6">
-                <div class="single-counter-box">
-                  <div class="number">
-                    <span
-                      class="timer"
-                      data-from="0"
-                      data-to="53"
-                      data-speed="1200"
-                      data-refresh-interval="5"
-                      >30</span
-                    >k
-                  </div>
-                  <p>Cases Completed</p>
-                </div>
-                <!-- /.single-counter-box -->
-              </div>
-              <!-- /.col- -->
-              <div class="col-md-3 col-6">
-                <div class="single-counter-box">
-                  <div class="number">
-                    <span
-                      class="timer"
-                      data-from="0"
-                      data-to="24"
-                      data-speed="1200"
-                      data-refresh-interval="5"
-                      >50</span
-                    >
-                  </div>
-                  <p>Consultants</p>
-                </div>
-                <!-- /.single-counter-box -->
-              </div>
-              <!-- /.col- -->
-            </div>
-            <!-- /.row -->
-          </div>
-          <!-- /.cunter-wrapper -->
-        </div>
-        <!-- /.clearfix -->
-      </div>
-      <!-- /.container -->
-    </div>
-    <!-- /.theme-counter -->
+        <div class="row">
+          <div class="col-xl-9 col-lg-8 col-12">
+            <div class="service-content">
+              <!-- <img src="images/home/20.jpg" alt="" class="cover-img" /> -->
+              <h3 id="history" class="main-title">History</h3>
+              <p>
+                Apara Fund Management is an investment management firm
+                headquartered in Phnom Penh, Cambodia. The firm was founded in
+                2023 by Vandong Thorn, and it primarily focuses on sustainable
+                financial investment to small and growing businesses (SGBs) in
+                Southeast Asia. Apara Fund management aims to offer critical
+                financial, educational, and business support services to SGBs
+                based on the conviction that SGBs will create inclusive jobs,
+                stimulate long-term economic growth, and produce environmental
+                and social benefits.
+              </p>
+              <p>
+                The firm's investment strategy involves identifying high-growth
+                potential companies and partnering with them to help them
+                achieve their full potential. Apara Fund Management's team has
+                extensive experience in private equity and venture capital, as
+                well as in investment banking and corporate finance, which
+                allows them to provide value-added support to the companies they
+                invest in. Apsara Fund’s portfolio includes investments in a
+                range of sectors, including education, healthcare, agriculture,
+                and consumer goods.
+              </p>
 
-    <!--
+              <h3 id="vission" class="main-title">Vissions</h3>
+              <p>
+                Apsara envisiones​​ the professional and sustainable investments
+                in financial and asset management.
+              </p>
+
+              <h3 id="mission" class="main-title">Missions</h3>
+              <p>
+                Our platform is committed to delivering sustainable financial
+                management solutions for impactful investments that are
+                trustworthy and reliable.
+              </p>
+
+              <div id="vission" class="presentation-section">
+                <h3 class="main-title">Goals</h3>
+
+                <div class="row">
+                  <div class="col-md-12 col-12">
+                    <ul class="best-list-item">
+                      <li class="">
+                        <i class="icon flaticon-interface"></i>
+                        <!-- <h5>Integrity</h5> -->
+                        <p>
+                          To strengthen institutional government, environmental
+                          and social inclusion to SME and other forms of
+                          business.
+                        </p>
+                      </li>
+                      <li class="">
+                        <i class="icon flaticon-technology"></i>
+                        <!-- <h5>Do-no harm</h5> -->
+                        <P
+                          >To promote/pionia accessibility and availability of
+                          impact investments.
+                        </P>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- /.presentation-section -->
+
+              <div class="our-team section-spacing">
+                <div class="container">
+                  <h3 id="meet-us" class="main-title">Meet Us</h3>
+                  <p>
+                    Our success is down to the hard work of literally remarkable
+                    people. Here’s an introduction to some of the senior members
+                    of our team.
+                  </p>
+                  <!--
 			=============================================
 				Core Values
 			==============================================
 			-->
-    <div class="core-values">
-      <div class="container">
-        <div class="theme-title-one">
-          <h2>CORE VALUES</h2>
-        </div>
-        <!-- /.theme-title-one -->
-        <div class="wrapper">
-          <carousel
-            :autoplay="true"
-            :nav="false"
-            :autoHeight="false"
-            :autoWidth="false"
-            :dots="false"
-            :margin="30"
-            :responsive="{
-              0: {
-                items: 1
-              },
-              600: {
-                items: 1
-              },
-              1000: {
-                items: 3
-              }
-            }"
-          >
-            <div class="item" v-for="i in 10" :key="i">
-              <div class="single-value-block">
-                <div class="image-box">
-                  <img src="images/home/17.jpg" alt="" />
-                  <div class="overlay">
-                    <a href="#" class="theme-button-one">READ MORE</a>
+
+                  <!--
+			=====================================================
+				Our Team
+			=====================================================
+			-->
+                  <div class="our-team section-spacing">
+                    <div class="container">
+                      <div class="wrapper">
+                        <div class="row">
+                          <div
+                            class="col-lg-3 col-sm-6 col-12"
+                            v-for="person in teams"
+                            :key="person.id"
+                            @click="openProfile(i)"
+                          >
+                            <div class="team-member">
+                              <div class="image-box">
+                                <img :src="person.image" alt="" />
+                                <div class="overlay">
+                                  <div class="hover-content">
+                                    <ul>
+                                      <li>
+                                        <a href="#"
+                                          ><i
+                                            class="fa fa-facebook"
+                                            aria-hidden="true"
+                                          ></i
+                                        ></a>
+                                      </li>
+                                      <li>
+                                        <a href="#"
+                                          ><i
+                                            class="fa fa-twitter"
+                                            aria-hidden="true"
+                                          ></i
+                                        ></a>
+                                      </li>
+                                      <li>
+                                        <a href="#"
+                                          ><i
+                                            class="fa fa-pinterest"
+                                            aria-hidden="true"
+                                          ></i
+                                        ></a>
+                                      </li>
+                                    </ul>
+                                    <p></p>
+                                  </div>
+                                  <!-- /.hover-content -->
+                                </div>
+                                <!-- /.overlay -->
+                              </div>
+                              <!-- /.image-box -->
+                              <div class="text">
+                                <h6>{{ person.name }}</h6>
+                                <p class="p-2">
+                                  {{
+                                    person.position.length > 50
+                                      ? person.position.substring(0, 50) + "..."
+                                      : person.position
+                                  }}
+                                </p>
+                              </div>
+                              <!-- /.text -->
+                            </div>
+                            <!-- /.team-member -->
+                          </div>
+
+                          <!-- /.col- -->
+                        </div>
+                        <!-- /.row -->
+                      </div>
+                      <!-- /.wrapper -->
+                    </div>
+                    <!-- /.container -->
                   </div>
+                  <!-- /.our-team -->
+
+                  <!-- /.wrapper -->
                 </div>
-                <!-- /.image-box -->
-                <div class="text">
-                  <h5><a href="#">Challenging Staff</a></h5>
-                  <p>
-                    The Love Boat soon will be making other run plore strange
-                    tools.
-                  </p>
-                </div>
-                <!-- /.text -->
+                <!-- /.container -->
               </div>
-              <!-- /.single-value-block -->
+              <!-- /.our-team -->
+
+              <!-- /.topics -->
             </div>
-            <!-- /.col- -->
-          </carousel>
-          <!-- /.core-value-slider -->
+            <!-- /.service-content -->
+          </div>
+          <!-- /.col- -->
+          <div
+            class="col-xl-3 col-lg-4 col-md-6 col-sm-8 col-12 theme-sidebar-one"
+          >
+            <div class="sidebar-box service-categories">
+              <h5 class="title">Table of content</h5>
+              <ul>
+                <li><a href="/about#history">History</a></li>
+                <li><a href="/about#mission">Mission</a></li>
+                <li><a href="/about#vission">Vission</a></li>
+                <li><a href="/about#meet-us">Meet our team</a></li>
+              </ul>
+            </div>
+
+            <!-- /.sidebar-brochures -->
+            <div class="sidebar-box sidebar-contact">
+              <h5 class="title">Contact Form</h5>
+              <form action="#">
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <textarea placeholder="Message"></textarea>
+                <button class="theme-button-one">SUBMIT</button>
+              </form>
+            </div>
+            <!-- /.sidebar-contact -->
+          </div>
+          <!-- /.theme-sidebar-one -->
         </div>
-        <!-- /.wrapper -->
+        <!-- /.row -->
       </div>
       <!-- /.container -->
     </div>
-    <!-- /.core-values -->
-
-    <!--
-			=====================================================
-				Partner Slider
-			=====================================================
-			-->
-
-    <div class="partner-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-3 col-md-3 col-sm-4 ">
-            <h6>OUR <br />PARTNERS</h6>
-          </div>
-          <div class="col-9 col-md-9 col-sm-8 ">
-            <carousel
-              :autoplay="true"
-              :nav="false"
-              :autoHeight="false"
-              :autoWidth="false"
-              :dots="false"
-            >
-              <div class="item" v-for="i in 10" :key="i">
-                <img
-                  src="https://khmerenterprise.info/assets/logo.png"
-                  alt=""
-                />
-              </div>
-            </carousel>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.partner-section -->
+    <!-- /.service-details -->
+    <ThePartnerSlider />
   </div>
 </template>
 
 <script>
+import TheInnerBanner from "~/components/TheInnerBanner.vue";
+import ThePartnerSlider from "~/components/ThePartnerSlider.vue";
 import carousel from "vue-owl-carousel";
 export default {
-  name: "About",
-  data() {
-    return {};
+  components: {
+    TheInnerBanner,
+    ThePartnerSlider,
+    carousel
   },
-  components: { carousel }
+  data() {
+    return {
+      teams: [
+        {
+          id: 1,
+          name: "Thorn Vandong",
+          position: "Chief Executive Officer",
+          image: "images/team/vandong.png"
+        },
+        {
+          id: 2,
+          name: "Chhon Srors",
+          position: "Executive Director",
+          image: "images/team/srors.png"
+        },
+        {
+          id: 2,
+          name: "Navy Toeu",
+          position: "Finance & Operation",
+          image: "images/team/toeu.png"
+        },
+        {
+          id: 2,
+          name: "Saroeun Soeung",
+          position: "Chairman",
+          image: "images/team/soeung.png"
+        }
+      ]
+    };
+  },
+  methods: {
+    openProfile(i) {
+      console.log("i", i);
+      // this.$router.push({ name: "profile", params: { id: i } });
+    }
+  }
 };
 </script>
+
+<style>
+.core-values {
+  background: #f9f9f9;
+  padding: 0;
+}
+</style>
