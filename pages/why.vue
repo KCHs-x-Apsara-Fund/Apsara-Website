@@ -49,7 +49,7 @@
             <div class="col-lg-12 col-md-12 col-12 ">
               <ul class="best-list-item">
                 <li>
-                  <i class="icon flaticon-puzzle"></i>
+                  <i class="icon flaticon-chart"></i>
                   <h5>
                     <a href="#">Financial Performance</a>
                   </h5>
@@ -66,7 +66,7 @@
                   </p>
                 </li>
                 <li>
-                  <i class="icon flaticon-presentation"></i>
+                  <i class="icon flaticon-target"></i>
                   <h5><a href="#">Mitigating Risk</a></h5>
                   <p>
                     ESG investment can also help mitigate investment risk.
@@ -79,7 +79,7 @@
                   </p>
                 </li>
                 <li>
-                  <i class="icon flaticon-medal"></i>
+                  <i class="icon flaticon-direction-signs"></i>
                   <h5><a href="#">Impact</a></h5>
                   <p>
                     ESG investment also enables investors to create positive
