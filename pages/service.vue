@@ -7,32 +7,48 @@
 				Our Solution
 			==============================================
 			-->
-    <div class="our-solution section-spacing">
+    <!--
+			=============================================
+				Service Style One
+			==============================================
+			-->
+    <div class="service-style-one section-spacing">
       <div class="container">
         <div class="theme-title-one">
-          <h2>Our SOLUTIONS</h2>
+          <h2>Our SERVICES</h2>
+          <p>
+            A tale of a fateful trip that started from this tropic port aboard
+            this tiny ship today stillers
+          </p>
         </div>
+        <!-- /.theme-title-one -->
         <!-- /.theme-title-one -->
         <div class="wrapper">
           <div class="row">
             <div
-              class="col-lg-4 col-sm-6 col-12"
+              class="col-xl-12 col-md-6 col-12"
               v-for="solution in solutions"
               :key="solution"
             >
-              <div class="single-solution-block">
-                <img src="images/icon/1.png" alt="" class="icon" />
-                <h5>
-                  <a href="service-details.html">
-                    {{ solution.title }}
-                  </a>
-                </h5>
-                <p>
-                  {{ solution.description }}
-                </p>
+              <div class="single-service">
+                <div class="img-box">
+                  <img src="images/home/3.jpg" alt="" />
+                </div>
+                <div class="text">
+                  <!-- <h5>
+                    <a href="service-details.html">{{ solution.title }}</a>
+                  </h5> -->
+                  <p>{{ solution.description }}</p>
+                  <a href="service-details.html" class="read-more"
+                    >READ MORE
+                    <i class="fa fa-angle-right" aria-hidden="true"></i
+                  ></a>
+                </div>
+                <!-- /.text -->
               </div>
-              <!-- /.single-solution-block -->
+              <!-- /.single-service -->
             </div>
+            <!-- /.col- -->
             <!-- /.col- -->
           </div>
           <!-- /.row -->
@@ -55,7 +71,7 @@
             We provide high quality services &amp; innovative solutions for the
             realiable growth
           </h2>
-          <a href="#contact-us" class="theme-button-one">GET A QUOTES</a>
+          <a href="#contact-us" class="theme-button-one">LET'S CONNECT</a>
         </div>
         <!-- /.container -->
       </div>
@@ -73,14 +89,16 @@
         <div class="theme-title-one">
           <h2>FREE CONSULTATION</h2>
           <p>
-            A tale of a fateful trip that started from this tropic port aboard
-            this tiny ship today stillers
+            Looking for more information on how we can help your company? Please
+            fill out the form below and one of the friendly folks will get.
           </p>
         </div>
         <!-- /.theme-title-one -->
         <div class="clearfix main-content no-gutters row">
           <div class="col-xl-6 col-lg-5 col-12">
-            <div class="img-box"></div>
+            <div class="img-box">
+              <img src="images/home/free_consult.png" alt="" />
+            </div>
           </div>
           <div class="col-xl-6 col-lg-7 col-12">
             <div class="form-wrapper">
@@ -121,76 +139,7 @@
       <!-- /.container -->
     </div>
     <!-- /.consultation-form -->
-
-    <!--
-			=============================================
-				Top Feature
-			==============================================
-			-->
-    <div class="top-feature fix-border">
-      <carousel
-        :autoplay="true"
-        :nav="false"
-        :autoHeight="false"
-        :autoWidth="false"
-        :dots="false"
-        :touchDrag="true"
-        :responsive="{
-          0: { items: 1 },
-          480: { items: 1 },
-          768: { items: 1 },
-          992: { items: 4 },
-          1200: { items: 4 }
-        }"
-      >
-        <div class="item">
-          <div class="main-content" style="background:#fafafa;">
-            <img src="images/icon/1.png" alt="" />
-            <h4><a href="#">Consumer Insights</a></h4>
-            <p>
-              The east side to a deluxe apartment in move on up to the east side
-            </p>
-          </div>
-          <!-- /.main-content -->
-        </div>
-        <!-- /.item -->
-        <div class="item">
-          <div class="main-content" style="background:#f6f6f6;">
-            <img src="images/icon/2.png" alt="" />
-            <h4><a href="#">Emerging Ideas</a></h4>
-            <p>
-              The east side to a deluxe apartment in move on up to the east side
-            </p>
-          </div>
-          <!-- /.main-content -->
-        </div>
-        <!-- /.item -->
-        <div class="item">
-          <div class="main-content" style="background:#efefef;">
-            <img src="images/icon/3.png" alt="" />
-            <h4><a href="#">Thought Leadership</a></h4>
-            <p>
-              The east side to a deluxe apartment in move on up to the east side
-            </p>
-          </div>
-          <!-- /.main-content -->
-        </div>
-        <!-- /.item -->
-        <div class="item">
-          <div class="main-content" style="background:#e9e9e9;">
-            <img src="images/icon/3.png" alt="" />
-            <h4><a href="#">Thought Leadership</a></h4>
-            <p>
-              The east side to a deluxe apartment in move on up to the east side
-            </p>
-          </div>
-          <!-- /.main-content -->
-        </div>
-
-        <!-- /.item -->
-      </carousel>
-      <!-- /.top-features-slide -->
-    </div>
+    <ThePartnerSlider />
     <!-- /.top-feature -->
   </div>
 </template>
@@ -222,12 +171,8 @@ export default {
             "Investment Matching between growth ESG SME and angel investor/impact investors "
         },
         {
-          title: "rust fund (commercial and social)",
-          description: "rust fund (commercial and social)"
-        },
-        {
-          title: "rust fund (commercial and social)",
-          description: "rust fund (commercial and social)"
+          title: "Rust fund (commercial and social)",
+          description: "Rust fund (commercial and social)"
         }
       ]
     };
