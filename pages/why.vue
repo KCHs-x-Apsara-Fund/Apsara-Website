@@ -9,68 +9,24 @@
     <div class="callout-banner no-bg">
       <div class="container clearfix">
         <h3 class="title">
-          Empower <br />
-          your impact with us.
+          Environmental <br />
+          Social <br />
+          Governance <br />
         </h3>
         <p>
-          Discover a new way to invest and support underrepresented
-          entrepreneurs while making a positive impact in local communities. Our
-          crowdfunding platform connects investors with a diverse range of
-          businesses and provides access to capital, mentorship, and resources.
-          Join our community and be part of the movement to empower economic
-          growth and diversity.
+          ESG is an investment approach that takes into account a company's
+          impact on the environment, society, and the quality of its management
+          practices. This approach is based on the belief that companies that
+          prioritize sustainability, social responsibility, and good governance
+          are more likely to be financially successful in the long term. At
+          Apsara Fund Management, we facilitate investors to support companies
+          that are making positive contributions to society and the environment,
+          while avoiding those that are engaging in harmful practices.
         </p>
-        <a href="#" class="theme-button-one">CONTACT US</a>
+        <!-- <a href="#" class="theme-button-one">CONTACT US</a> -->
       </div>
     </div>
     <!-- /.callout-banner -->
-
-    <!--
-			=============================================
-				About Company Stye Two
-			==============================================
-			-->
-    <div class="about-compnay-two no-bg section-spacing">
-      <div class="overlay">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-12 text order-lg-last">
-              <div class="theme-title-one">
-                <h2>WHY WE THE BEST?</h2>
-              </div>
-              <!-- /.theme-title-one -->
-              <p>
-                ESG, which stands for environmental, social, and governance, is
-                an investment approach that takes into account a company's
-                impact on the environment, society, and the quality of its
-                management practices. This approach is based on the belief that
-                companies that prioritize sustainability, social responsibility,
-                and good governance are more likely to be financially successful
-                in the long term. At Apsara Fund Management, we facilitate
-                investors to support companies that are making positive
-                contributions to society and the environment, while avoiding
-                those that are engaging in harmful practices.
-
-                <!-- <img src="images/logo.png" alt="" class="sign" /> -->
-              </p>
-              <p>
-                Apsara Fund Management is able to attract investors to engage in
-                ESG investment due to several compelling reasons:
-              </p>
-            </div>
-
-            <!-- /.col- -->
-            <div class="col-lg-6 col-12 order-lg-first">
-              <!-- <img src="images/about/history.png" alt="" class="left-img" /> -->
-            </div>
-          </div>
-          <!-- /.row -->
-        </div>
-        <!-- /.container -->
-      </div>
-      <!-- /.overlay -->
-    </div>
-    <!-- /.about-compnay-two -->
 
     <!--
 			=====================================================
@@ -81,45 +37,78 @@
       <div class="overlay">
         <div class="container">
           <div class="theme-title-one">
-            <h2>OUR GOALS</h2>
+            <h2>WHY WE BEST</h2>
             <p>
-              Our platform aims to encourage and support businesses that make a
-              positive impact on society and the environment.
+              Apsara Fund Management is able to attract investors to engage in
+              ESG investment due to several compelling reasons:
             </p>
           </div>
           <!-- /.theme-title-one -->
 
           <div class="wrapper row no-gutters">
-            <div class="col-lg-6 col-12 order-lg-last">
-              <div class="img-box">
-                <img class="img-fluid" src="images/about/goal.png" alt="" />
-              </div>
-            </div>
-            <div class="col-lg-6 col-12 order-lg-first">
+            <div class="col-lg-12 col-md-12 col-12 ">
               <ul class="best-list-item">
                 <li>
                   <i class="icon flaticon-puzzle"></i>
                   <h5>
-                    <a href="#">Sustainable</a>
+                    <a href="#">Financial Performance</a>
                   </h5>
                   <p>
-                    To strengthen institutional government, environmental and
-                    social inclusion to SME and other forms of business.
+                    ESG investment can lead to better financial performance.
+                    Companies that take ESG issues seriously often perform
+                    better in the long-term as they tend to have lower
+                    operational costs, a better reputation among stakeholders,
+                    and are better positioned to capitalize on new market
+                    opportunities. Research has shown that companies with strong
+                    ESG practices tend to have more stable stock prices and
+                    better financial performance compared to those with weaker
+                    ESG practices.
                   </p>
                 </li>
                 <li>
                   <i class="icon flaticon-presentation"></i>
-                  <h5><a href="#">Inclusivity</a></h5>
+                  <h5><a href="#">Mitigating Risk</a></h5>
                   <p>
-                    To promote/pionia accessibility and availability of impact
-                    investments
+                    ESG investment can also help mitigate investment risk.
+                    Companies that are exposed to environmental or social risks,
+                    such as climate change or poor labor practices, are more
+                    likely to experience negative financial consequences. By
+                    integrating ESG factors into investment decisions, we help
+                    investors identify and avoid companies that are exposed to
+                    such risks, helping to reduce potential losses.
                   </p>
                 </li>
                 <li>
                   <i class="icon flaticon-medal"></i>
-                  <h5><a href="#">Empowerment</a></h5>
+                  <h5><a href="#">Impact</a></h5>
                   <p>
-                    Empowering diverse entrepreneurs for growth.
+                    ESG investment also enables investors to create positive
+                    impact. By investing in companies listed on our platform,
+                    investors can help promote positive environmental, social,
+                    and governance practices. This can include supporting
+                    companies that are actively working to reduce their carbon
+                    footprint, improve working conditions, or increase board
+                    diversity.
+                  </p>
+                </li>
+                <li>
+                  <i class="icon flaticon-medal"></i>
+                  <h5><a href="#">Aligning with Values</a></h5>
+                  <p>
+                    ESG investment also provides a way for investors to align
+                    their investment decisions with their values. We believe
+                    that investors are interested in using their investments to
+                    promote positive change and support companies that are
+                    working towards positive societal or environmental outcomes.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Overall, Apsara Fund Management’s strategy provides a way
+                    for investors to achieve both financial returns and positive
+                    societal and environmental outcomes. By using our platform,
+                    investors will have more options to choose from and more
+                    ways to make a positive impact through their investments.
                   </p>
                 </li>
               </ul>
@@ -134,197 +123,50 @@
     </div>
     <!-- /.why-we-best -->
 
-    <!--
-			=====================================================
-				Theme Counter
-			=====================================================
-			-->
-    <!-- <div class="theme-counter-two section-spacing"> -->
-    <!-- <div class="container">
-      <div class="clearfix"> -->
-    <!-- <div class="cunter-wrapper"> -->
-    <!-- <div class="row"> -->
-    <div class="col-md-3 col-6">
-      <!-- <div class="single-counter-box">
-                  <div class="number">
-                    <span
-                      class="timer"
-                      data-from="0"
-                      data-to="30"
-                      data-speed="1200"
-                      data-refresh-interval="5"
-                      >20 </span
-                    >+
-                  </div>
-                  <p>Years of Excellence</p>
-                </div> -->
-      <!-- /.single-counter-box -->
-    </div>
-    <!-- /.col- -->
-    <div class="col-md-3 col-6">
-      <!-- <div class="single-counter-box">
-                  <div class="number">
-                    <span
-                      class="timer"
-                      data-from="0"
-                      data-to="100"
-                      data-speed="1200"
-                      data-refresh-interval="5"
-                      >10</span
-                    >%
-                  </div>
-                  <p>Client Satisfaction</p>
-                </div> -->
-      <!-- /.single-counter-box -->
-    </div>
-    <!-- /.col- -->
-    <div class="col-md-3 col-6">
-      <!-- <div class="single-counter-box">
-                  <div class="number">
-                    <span
-                      class="timer"
-                      data-from="0"
-                      data-to="53"
-                      data-speed="1200"
-                      data-refresh-interval="5"
-                      >30</span
-                    >k
-                  </div>
-                  <p>Cases Completed</p>
-                </div> -->
-      <!-- /.single-counter-box -->
-    </div>
-    <!-- /.col- -->
-    <div class="col-md-3 col-6">
-      <!-- <div class="single-counter-box">
-                  <div class="number">
-                    <span
-                      class="timer"
-                      data-from="0"
-                      data-to="24"
-                      data-speed="1200"
-                      data-refresh-interval="5"
-                      >50</span
-                    >
-                  </div>
-                  <p>Consultants</p>
-                </div> -->
-      <!-- /.single-counter-box -->
-    </div>
-    <!-- /.col- -->
-    <!-- </div> -->
-    <!-- /.row -->
-    <!-- </div> -->
-    <!-- /.cunter-wrapper -->
-    <!-- </div> -->
-    <!-- /.clearfix -->
-    <!-- </div> -->
-    <!-- /.container -->
-    <!-- </div> -->
-    <!-- /.theme-counter -->
-
-    <!--
-			=============================================
-				Core Values
-			==============================================
-			-->
-
-    <!-- <div class="core-values">
-      <div class="container"> -->
-    <!-- <div class="theme-title-one">
-          <h2>CORE VALUES</h2>
-        </div> -->
-    <!-- /.theme-title-one -->
-    <!-- <div class="wrapper">
-          <carousel
-            :autoplay="true"
-            :nav="false"
-            :autoHeight="false"
-            :autoWidth="false"
-            :dots="false"
-            :margin="30"
-            :responsive="{
-              0: {
-                items: 1
-              },
-              600: {
-                items: 1
-              },
-              1000: {
-                items: 3
-              }
-            }"
-          > -->
-    <!-- <div class="item" v-for="i in 10" :key="i">
-              <div class="single-value-block">
-                <div class="image-box">
-                  <img src="images/home/17.jpg" alt="" />
-                  <div class="overlay">
-                    <a href="#" class="theme-button-one">READ MORE</a>
-                  </div>
-                </div>
-
-                <div class="text">
-                  <h5><a href="#">Challenging Staff</a></h5>
-                  <p>
-                    The Love Boat soon will be making other run plore strange
-                    tools.
-                  </p>
-                </div>
-              </div>
-            </div> -->
-    <!-- /.col- -->
-    <!-- </carousel> -->
-    <!-- /.core-value-slider -->
-    <!-- </div> -->
-    <!-- /.wrapper -->
-    <!-- </div> -->
-    <!-- /.container -->
-    <!-- </div> -->
-    <!-- /.core-values -->
-
-    <!--
-			=====================================================
-				Partner Slider
-			=====================================================
-			-->
-
-    <div class="partner-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-3 col-md-3 col-sm-4 ">
-            <h6>OUR <br />PARTNERS</h6>
-          </div>
-          <div class="col-9 col-md-9 col-sm-8 ">
-            <carousel
-              :autoplay="true"
-              :nav="false"
-              :autoHeight="false"
-              :autoWidth="false"
-              :dots="false"
-            >
-              <div class="item" v-for="i in 10" :key="i">
-                <img
-                  src="https://khmerenterprise.info/assets/logo.png"
-                  alt=""
-                />
-              </div>
-            </carousel>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.partner-section -->
+    <ThePartnerSlider />
   </div>
 </template>
 
 <script>
 import carousel from "vue-owl-carousel";
+import ThePartnerSlider from "@/components/ThePartnerSlider.vue";
 export default {
   name: "About",
   data() {
     return {};
   },
-  components: { carousel }
+  components: {
+    carousel,
+    ThePartnerSlider
+  }
 };
 </script>
+
+<style>
+.why-we-best {
+  height: 1330px;
+  margin-bottom: 20px;
+}
+
+.why-we-best .overlay {
+  height: 1330px;
+}
+
+@media (max-width: 767px) {
+  .why-we-best {
+    height: 100%;
+  }
+  .why-we-best .overlay {
+    height: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .why-we-best {
+    height: 100%;
+  }
+  .why-we-best .overlay {
+    height: 100%;
+  }
+}
+</style>
