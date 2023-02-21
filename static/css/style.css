@@ -1,13 +1,13 @@
 
 /* CSS Document */
 
-/*
+/* 
     Created on   : 23/05/2018.
     Theme Name   : Charles-Business-Consulting HTML Template.
     Version      : 1.0.
     Author       : @CreativeGigs.
     Developed by : Jubayer al hasan. (jubayer.hasan1991@gmail.com)
-
+   
 */
 
 /* ------------------------------------------ */
@@ -82,7 +82,7 @@
 @import url('/vendor/sanzzy-map/dist/snazzy-info-window.min.css');
 
 
-/***
+/*** 
 
 ====================================================================
   Loading Transition
@@ -152,6 +152,13 @@
   font-size: 18px;
   position: relative;
  }
+
+ 
+
+
+
+
+
  .btn-primary{
     color: #022244;
     background-color: transparent;
@@ -188,7 +195,7 @@
   border-radius: 0;
 }
 .carousel-inner {
-
+  
   padding-top: 0em;
   padding-bottom: 1em;
 }
@@ -205,6 +212,9 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
+
+
 
 @media (min-width: 768px) {
   .card img {
@@ -434,7 +444,7 @@ body .theme-button-one:hover {background:#000f32; }
   -webkit-transform:none !important;
           transform:none !important;
   position: absolute;
-
+  
   height:400px;
   width: 210px;
   padding: 5px;
@@ -642,7 +652,7 @@ body .theme-button-one:hover {background:#000f32; }
 }
 /*------------------ Feature Banner ---------------*/
 .feature-banner {
-  background: url(../images/about/goal.png) no-repeat center center;
+  background: url(../images/home/2.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   background-color: #707d9e;
@@ -1372,7 +1382,7 @@ body .theme-button-one:hover {background:#000f32; }
 .google-map-one {height: 300px;}
 /*---------------------- Theme Inner Banner -----------------*/
 .theme-inner-banner {
-  background: url(../images/home/background-banner.png) no-repeat center center;
+  background: url(../images/home/inner-banner.jpg) no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   background-color: #707d9e;
@@ -1385,7 +1395,7 @@ body .theme-button-one:hover {background:#000f32; }
 .theme-inner-banner .overlay h2 {font-size: 45px;color: #fff;text-transform: uppercase;}
 /*------------------- Why WE Best -------------------*/
 .why-we-best {
-  background: url(../images/about/goal.png) no-repeat center center;
+  background: url(../images/home/11.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   background-color: #707d9e;
@@ -1624,7 +1634,7 @@ body .theme-button-one:hover {background:#000f32; }
   position: absolute;
   line-height: 35px;
   top:0;
-  left:0;
+  left:0; 
 }
 .blog-sidebar .sidebar-recent-post li {
   padding: 10px 0 13px 0;
@@ -1671,7 +1681,7 @@ body .theme-button-one:hover {background:#000f32; }
   position: absolute;
   line-height: 32px;
   top:0;
-  left:0;
+  left:0; 
 }
 .blog-sidebar .sidebar-tags ul {margin: 0 -2px;}
 .blog-sidebar .sidebar-tags ul li {float: left;padding: 0 2px;}
@@ -1950,7 +1960,7 @@ ul#horizontal-list {
 	ul#horizontal-list li {
 		display: inline;
     padding: 20px;
-
+      
 	}
 .shop-details .product-details .product-tab .product-thumbnail .nav-tabs {
   border: none;
@@ -2019,14 +2029,14 @@ ul#horizontal-list {
   width: 40px;
   margin-left: 10px;
 }
-.our-project .product-details .product-info .order-box {margin: 35px 0 30px 0;}
-.our-project .product-review-tab {
+.shop-details .product-details .product-info .order-box {margin: 35px 0 30px 0;}
+.shop-details .product-review-tab {
   border: 1px solid #d7d7d7;
   border-radius: 5px;
   margin: 100px 0 75px 0;
   padding: 22px 40px 20px 40px;
 }
-.our-project .product-review-tab .nav-tabs .nav-link {
+.shop-details .product-review-tab .nav-tabs .nav-link {
   border: none;
   border-bottom: 1px solid transparent;
   border-radius: 0;
@@ -2036,25 +2046,25 @@ ul#horizontal-list {
   padding: 0 0 15px 0;
   margin-right: 35px;
 }
-.our-project .product-review-tab .nav-tabs .nav-item.show .nav-link,
-.our-project .product-review-tab .nav-tabs .nav-link.active {
+.shop-details .product-review-tab .nav-tabs .nav-item.show .nav-link,
+.shop-details .product-review-tab .nav-tabs .nav-link.active {
   border-bottom-color: #001a57;
   background: transparent;
 }
-.our-project .product-review-tab .tab-content {padding-top: 28px;}
-.our-project .product-review-tab .tab-content p {padding-bottom: 13px;}
-.our-project .product-review-tab img {width: 70px;}
-.our-project .product-review-tab .comment {
+.shop-details .product-review-tab .tab-content {padding-top: 28px;}
+.shop-details .product-review-tab .tab-content p {padding-bottom: 13px;}
+.shop-details .product-review-tab img {width: 70px;}
+.shop-details .product-review-tab .comment {
   width: calc(100% - 70px);
   padding-left: 20px;
 }
-.our-project .product-review-tab .comment ul li {
+.shop-details .product-review-tab .comment ul li {
   display: inline-block;
   font-size: 15px;
   color: #ecc230;
 }
-.our-project .product-review-tab .single-review {margin-bottom: 20px;}
-.our-project .product-review-tab .single-review:last-child {margin: 0;}
+.shop-details .product-review-tab .single-review {margin-bottom: 20px;}
+.shop-details .product-review-tab .single-review:last-child {margin: 0;}
 .shop-details .related-product .theme-title-one {text-align: left;margin-bottom: 50px;}
 .shop-details .related-product .theme-title-one h2 {font-size: 30px;}
 .shop-details .related-product .theme-title-one h2:before {
