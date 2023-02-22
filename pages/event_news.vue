@@ -7,10 +7,10 @@
 				Our Case
 			==============================================
 			-->
-    <div class="our-case our-project section-spacing">
+    <div class="our-case event-news section-spacing">
       <div class="container">
         <div class="wrapper">
-          <div class="product-review-tab mb-2">
+          <div class="event-review-tab mb-2">
             <ul class="nav nav-tabs mx-2">
               <li class="nav-item">
                 <a class="nav-link active" data-toggle="tab" href="#events">
