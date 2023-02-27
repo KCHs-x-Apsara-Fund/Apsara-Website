@@ -6,23 +6,32 @@
 						<div class="row">
 							<div class="col-lg-4 col-sm-6 col-12 logo-widget">
 								<div class="logo"><a href="index.html"><img src="/images/logo/logo2.png" alt=""></a></div>
-								<p>Tthis tropic port aboard this tiny ship today still wanted by theam government they survive on up east side to a deluxe as soldiers.</p>
-								<ul class="social-icon">
-									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-								</ul>
+
 							</div> <!-- /.logo-widget -->
               <div class="col-lg-2 col-sm-6 col-12 footer-gallery"></div> <!-- /.footer-gallery -->
 							<div class="col-lg-3 col-sm-6 col-12 footer-list">
 								<h6 class="title">EXPLORE</h6>
 								<ul>
-									<li><a href="#">About us</a></li>
-									<li><a href="#">Why ESG Investment?</a></li>
-									<li><a href="#">Our Services</a></li>
-									<li><a href="#">Events &News</a></li>
+									<li>
+										<NuxtLink to="/about">
+										<a >About us</a>
+										</NuxtLink>
+									</li>
+									<li>
+										<NuxtLink to="/why">
+										<a >Why ESG Investment?</a>
+										</NuxtLink>
+									</li>
+									<li>
+										<NuxtLink to="/service">
+										<a >Our Services</a>
+										</NuxtLink>
+									</li>
+									<li>
+										<NuxtLink to="/event_news">
+										<a >Events &News</a>
+										</NuxtLink>
+									</li>
 								</ul>
 							</div> <!-- /.footer-list -->
 	

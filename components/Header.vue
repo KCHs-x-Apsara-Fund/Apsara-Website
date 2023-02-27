@@ -1,60 +1,6 @@
 <template>
   <header class="header-two">
-    <div class="top-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-8 col-12">
-            <ul class="left-widget">
-              <li>We are leading consultant firm!</li>
-              <li>
-                <div id="polyglotLanguageSwitcher">
-                  <form action="#">
-                    <select id="polyglot-language-options">
-                      <option id="en" value="en" selected>English</option>
-                      <option id="fr" value="fr">French</option>
-                      <option id="de" value="de">German</option>
-                      <option id="it" value="it">Italian</option>
-                      <option id="es" value="es">Spanish</option>
-                    </select>
-                  </form>
-                </div>
-                <!-- End #polyglotLanguageSwitcher -->
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-6 col-sm-4 col-12">
-            <ul class="social-icon">
-              <li>
-                <a href="#"
-                  ><i class="fa fa-facebook" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><i class="fa fa-linkedin" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><i class="fa fa-pinterest" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><i class="fa fa-google-plus" aria-hidden="true"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </div>
-    <!-- /.top-header -->
+   
 
     <div class="theme-menu-wrapper ">
       <div class="container .header">

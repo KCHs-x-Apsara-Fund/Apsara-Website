@@ -19,7 +19,7 @@
   .carousel-caption {
     position: absolute;
     right: 15%;
-    bottom: 25%;
+    bottom: 20%;
     left: 20%;
   }
   .menu-wrapper{
@@ -55,6 +55,11 @@
 /*(min-width: 992px) and (max-width: 1199px)*/
 
 @media (max-width: 1024px) {
+  .ch1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 70px;
+}
   .btnr{
     display: block;
   }

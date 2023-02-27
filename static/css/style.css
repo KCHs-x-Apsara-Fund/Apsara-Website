@@ -158,9 +158,11 @@
 
 
 
-
+ .ch1{
+  color: #1b4277;
+ }
  .btn-primary{
-    color: #022244;
+    color: #1b4277;
     background-color: transparent;
     border-color: transparent;
     padding: 0;
@@ -177,7 +179,7 @@
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #fff;
+  color: #72A6d9; 
   text-align: left;
 }
 .cards-wrapper {
@@ -238,7 +240,7 @@
  button {border:none;outline: none;box-shadow: none;display: block; padding: 0;cursor: pointer;}
  button:focus {outline: none;}
  input,textarea {outline: none; box-shadow: none;transition: all 0.3s ease-in-out;}
-.section-spacing {margin-bottom: 50px;}
+.section-spacing {margin-bottom: 100px; margin-top: 100px;}
 .m-top0 {margin-top: 0 !important;}
 .m-bottom0 {margin-bottom: 0 !important;}
 .p-bottm0 {padding-bottom: 0 !important;}
@@ -1125,8 +1127,9 @@ body .theme-button-one:hover {background:#000f32; }
 /*------------------------- Our Solution -------------------*/
 .our-solution .single-solution-block {margin-top: 55px;text-align: center;background: #fff;}
 .our-solution .single-solution-block .icon {margin: 0 auto;}
-.our-solution .single-solution-block h5 {margin: 26px 0 10px 0;}
-.our-solution .single-solution-block  p {padding: 0 22px;}
+.our-solution .single-solution-block h5 {margin: 26px 0 10px 0; }
+.our-solution .single-solution-block  p {padding: 0 22px;  text-align: justify;
+  text-justify: inter-word;}
 .our-solution .single-solution-block:hover .icon {
   -webkit-transform:scale(1.1);
           transform:scale(1.1);
