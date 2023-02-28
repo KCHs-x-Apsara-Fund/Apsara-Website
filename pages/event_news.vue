@@ -67,13 +67,13 @@
                                         {{ u_event.time }}</a
                                       >
                                     </div>
-                                    <div class="col-12 col-md-3">
+                                    <div class="col-12 col-md-4">
                                       <a href="#" class="location">
                                         <i class="fa fa-location-arrow"></i>
                                         {{ u_event.location }}</a
                                       >
                                     </div>
-                                    <div class="d-flex col-12 col-md-4">
+                                    <div class="d-flex col-12 col-md-3">
                                       <a
                                         href="event-details.html"
                                         class="read-more ml-auto"
@@ -129,13 +129,13 @@
                                         {{ p_event.time }}</a
                                       >
                                     </div>
-                                    <div class="col-12 col-md-3">
+                                    <div class="col-12 col-md-4">
                                       <a href="#" class="location">
                                         <i class="fa fa-location-arrow"></i>
                                         {{ p_event.location }}</a
                                       >
                                     </div>
-                                    <div class="d-flex col-12 col-md-4">
+                                    <div class="d-flex col-12 col-md-3">
                                       <a
                                         href="event-details.html"
                                         class="read-more ml-auto"
@@ -262,7 +262,7 @@ export default {
           date: "Tue 28 Feb, 2023",
           time: "8:30",
           location: "Raintree Phnom Penh",
-          img: 'images/event/1.jpg'
+          img: 'images/event/3.png'
         }
       ],
       up_events: [{
