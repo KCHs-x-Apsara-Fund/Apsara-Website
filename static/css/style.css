@@ -179,7 +179,7 @@
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #72A6d9; 
+  color: #72A6d9;
   text-align: left;
 }
 .cards-wrapper {
@@ -1088,7 +1088,7 @@ body .theme-button-one:hover {background:#000f32; }
 /*----------------- CallOut Banner  --------------*/
 .callout-banner {
   background-color: #001a57;
-  background-image: url(../images/home/pattern2.png);
+  background-image: url(../images/home/goal.png);
   padding: 40px 0;
 }
 .callout-banner .title {
@@ -1385,7 +1385,7 @@ body .theme-button-one:hover {background:#000f32; }
 .google-map-one {height: 300px;}
 /*---------------------- Theme Inner Banner -----------------*/
 .theme-inner-banner {
-  background: url(../images/home/inner-banner.jpg) no-repeat center center;
+  background: url(../images/home/background-banner.png) no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   background-color: #707d9e;
@@ -1398,7 +1398,7 @@ body .theme-button-one:hover {background:#000f32; }
 .theme-inner-banner .overlay h2 {font-size: 45px;color: #fff;text-transform: uppercase;}
 /*------------------- Why WE Best -------------------*/
 .why-we-best {
-  background: url(../images/home/11.jpg) no-repeat center center;
+  background: url(../images/about/goal.png) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   background-color: #707d9e;
@@ -1418,7 +1418,7 @@ body .theme-button-one:hover {background:#000f32; }
   margin: 55px 0 0 0;
 }
 .why-we-best .wrapper .img-box {
-  background: url(../images/home/16.jpg) no-repeat center center;
+  background: url(../images/home/goal.png) no-repeat center center;
   background-size: cover;
   border-radius: 0 5px 5px 0;
   position: relative;
