@@ -297,7 +297,18 @@ body .theme-button-one {
   border-radius: 5px;
   padding: 0 35px;
 }
+body .theme-button-two {
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0 35px;
+  background-color: #afafaf;
+}
 body .theme-button-one:hover {background:#000f32; }
+body .theme-button-two:hover {background:#c3c3c3; }
 /*------------------- Theme Title ------------------*/
 .theme-title-one {position: relative;text-align: center;}
 .theme-title-one h2 {

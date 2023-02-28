@@ -46,10 +46,10 @@
                                 <h5 class="title">
                                   <a
                                     v-if="u_event.title.length < 70"
-                                    href="event-details.html"
+                                    href="event_detail"
                                     >{{ u_event.title }}</a
                                   >
-                                  <a v-else href="event-details.html">{{
+                                  <a v-else href="event_detail">{{
                                     u_event.title.substring(0, 70) + "...."
                                   }}</a>
                                 </h5>
@@ -75,10 +75,8 @@
                                     </div>
                                     <div class="d-flex col-12 col-md-3">
                                       <a
-                                        href="event-details.html"
-                                        class="read-more ml-auto"
-                                        >READ MORE</a
-                                      >
+                                        href="event_detail"
+                                        class="read-more ml-auto">READ MORE</a>
                                     </div>
                                   </div>
                                 </div>
@@ -138,9 +136,7 @@
                                     <div class="d-flex col-12 col-md-3">
                                       <a
                                         href="event-details.html"
-                                        class="read-more ml-auto"
-                                        >READ MORE</a
-                                      >
+                                        class="read-more ml-auto">READ MORE</a>
                                     </div>
                                   </div>
                                 </div>
