@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TheInnerBanner title="SME EXPORT TALKS 10: CAMBODIA EXPORT OF SERVICES" />
+    <TheInnerBanner :title="dataE.title" />
 
     <!--
 			=============================================
@@ -14,10 +14,10 @@
 							<div class="post-wrapper blog-details">
 								<div class="single-blog">
 									<div class="image-box">
-										<img src="images/event/3.png" alt="">
-										<div class="overlay"><a href="#" class="date">Feb 28, 2023</a></div>
+										<img :src="dataE.img" alt="">
+										<div class="overlay"><a href="#" class="date">{{ dataE.date }}</a></div>
 									</div> <!-- /.image-box -->
-									<div class="post-meta mt-2">
+									<div v-if="dataE.id === '1'" class="post-meta mt-2">
                     <h4>Details</h4>
 										<p>Our 10th SME Export Talks, hosted in collaboration with ARISE+ Cambodia* will focus on the Cambodia Export of Services. This event will aim to provide an understanding of service exports for the Cambodian market.</p>
                     <h6>Participants will learn about:</h6>
@@ -32,19 +32,6 @@
                     <a href="#contact-us" data-toggle="modal" data-target="#exampleModalCenter" class="theme-button-one">REGISTER</a>
                   </div> <!-- /.post-meta -->
 									<div class="share-option clearfix">
-										<!-- <ul class="tag-meta float-left">
-											<li><i class="fa fa-tags" aria-hidden="true"></i> Tags :</li>
-											<li><a href="#">Business,</a></li>
-											<li><a href="#">Consulting,</a></li>
-											<li><a href="#">Financial</a></li>
-										</ul>
-										<ul class="social-icon float-right">
-											<li><i class="fa fa-share-alt" aria-hidden="true"></i> Share :</li>
-											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-										</ul> -->
 									</div>
                   <!-- /.share-option -->
 								</div> <!-- /.single-blog -->
@@ -95,15 +82,15 @@
                   <div class="col-12 col-md-12">
                     <p class="date">
                       <i class="fa fa-calendar"></i>
-                      Tue 28 Feb, 2023
+                      {{ dataE.date }}
                      </p>
                     <p class="time">
                       <i class="fa fa-clock-o"></i>
-                      8:00
+                      {{ dataE.time }}
                     </p>
                     <p class="location">
                       <i class="fa fa-location-arrow"></i>
-                      Phnom Penh
+                      {{ dataE.location }}
                     </p>
                   </div>
                 </div>
@@ -139,22 +126,22 @@
 				</div> <!-- /.container -->
 			</div> <!-- /.blog-details -->
       <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Register Event</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="theme-button-two" data-dismiss="modal">Close</button>
-        <button type="button" class="theme-button-one">Register</button>
-      </div>
-    </div>
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Register Event</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="theme-button-two" data-dismiss="modal">Close</button>
+            <button type="button" class="theme-button-one">Register</button>
+          </div>
+        </div>
   </div>
 </div>
   </div>
@@ -162,6 +149,53 @@
 
 <script>
 export default {
-  methods: {}
+  props: [],
+  data() {
+    return {
+      dataE: {}
+    }
+  },
+  methods: {
+    checkId() {
+      const id = this.$route.query.id;
+      if (id === '1') {
+        this.dataE = {
+          id: '1',
+          title: 'ACHIEVING ENERGY EFFICIENCY: POLICIES AND BEST PRACTICES',
+          date: 'Fri 17 Mar, 2023',
+          time: '8:00',
+          location: 'Sofitel Phnom Penh Phokeethra',
+          img: 'images/event/2.png'
+        }
+      } else if (id === '2') {
+        this.dateE = {
+          id: '2',
+          title: "24th INTERPOL Asian Regional Conference",
+          date: "Tue 28 Feb, 2023",
+          time: "8:00",
+          location: "Phnom Penh",
+          img: 'images/event/1.jpg'}
+      } else {
+        this.dateE = {
+          id: '3',
+          title: "SME EXPORT TALKS 10: CAMBODIA EXPORT OF SERVICES",
+          date: "Tue 28 Feb, 2023",
+          time: "8:30",
+          location: "Raintree Phnom Penh",
+          img: 'images/event/3.png'
+        }
+      }
+    }
+  },
+  computed: {
+    id() {
+      if (this.$route.query.id !== undefined) {
+          this.checkId()
+      } else {
+          return ''
+      }
+    }
+  },
+  watch: { id: "checkId" }
 };
 </script>
