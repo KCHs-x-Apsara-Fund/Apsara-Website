@@ -2,55 +2,72 @@
   <div>
     <TheInnerBanner title="Service" />
 
-    <!--
-			=============================================
-				Our Solution
-			==============================================
-			-->
-    <!--
-			=============================================
-				Service Style One
-			==============================================
-			-->
-    <div class="service-style-one section-spacing">
+    <div class="our-solution section-spacing">
       <div class="container">
         <div class="theme-title-one">
-          <h2>Our SERVICES</h2>
-          <p>
-            A tale of a fateful trip that started from this tropic port aboard
-            this tiny ship today stillers
-          </p>
+          <h2>Our SOLUTIONS</h2>
         </div>
-        <!-- /.theme-title-one -->
         <!-- /.theme-title-one -->
         <div class="wrapper">
           <div class="row">
-            <div
-              class="col-xl-12 col-md-6 col-12"
-              v-for="solution in solutions"
-              :key="solution"
-            >
-              <div class="single-service">
-                <div class="img-box">
-                  <img src="images/home/3.jpg" alt="" />
-                </div>
-                <div class="text">
-                  <!-- <h5>
-                    <a href="service-details.html">{{ solution.title }}</a>
-                  </h5> -->
-                  <p>{{ solution.description }}</p>
-                  <a href="service-details.html" class="read-more"
-                    >READ MORE
-                    <i class="fa fa-angle-right" aria-hidden="true"></i
-                  ></a>
-                </div>
-                <!-- /.text -->
+            <div class="col-lg-4 col-sm-6 col-12">
+              <div class="single-solution-block">
+                <img src="images/icon/7.png" alt="" class="icon" />
+                <h5><a >SME Readiness for <br> Apara Impact Fund Program</a></h5>
+                <p>
+                  Curate a pool of impact investment projects that meet our rigorous standards for environmental, social, and governance practices.
+                </p>
               </div>
-              <!-- /.single-service -->
+              <!-- /.single-solution-block -->
             </div>
             <!-- /.col- -->
+            <div class="col-lg-4 col-sm-6 col-12">
+              <div class="single-solution-block">
+                <img src="images/icon/8.png" alt="" class="icon" />
+                <h5><a>Apsara Impact for Enterprises</a></h5>
+                <p>
+                  Provide ESG consultation services that ensure our clients are competent, compliant, and certified (CCC) in terms of ESG practices.
+                </p>
+              </div>
+              <!-- /.single-solution-block -->
+            </div>
+            <!-- /.col- -->
+            <div class="col-lg-4 col-sm-6 col-12">
+              <div class="single-solution-block">
+                <img src="images/icon/6.png" alt="" class="icon" />
+                <h5><a >Apara Investment  Matching Program</a></h5>
+                <p>
+                  Facilitate investment pitching between small and growing ESG-oriented businesses and angel/impact investors.
+                </p>
+              </div>
+              <!-- /.single-solution-block -->
+            </div>
+            <!-- /.col- -->
+            <div class="col-lg-6 col-sm-6 col-12">
+              <div class="single-solution-block">
+                <img src="images/icon/9.png" alt="" class="icon" />
+                <h5><a>Apsara Impact for NextGen</a></h5>
+                <p style="margin-left: 15%;margin-right: 15%;">
+                  Run awareness workshops for university students, mainly in the business and digital technology field.
+                </p>
+              </div>
+              <!-- /.single-solution-block -->
+            </div>
+            <!-- /.col- -->
+            <div class="col-lg-6 col-sm-6 col-12">
+              <div class="single-solution-block">
+                <img src="images/icon/5.png" alt="" class="icon" />
+                <h5><a>Crowdfunding Platform</a></h5>
+                <p style="margin-left: 15%;margin-right: 15%;">
+                  Create a trusted platform that is specifically designed for impact investments.
+                </p>
+              </div>
+              <!-- /.single-solution-block -->
+            </div>
             <!-- /.col- -->
           </div>
+
+
           <!-- /.row -->
         </div>
         <!-- /.wrapper -->
@@ -58,7 +75,6 @@
       <!-- /.container -->
     </div>
     <!-- /.our-solution -->
-
     <!--
 			=============================================
 				Feature Banner
