@@ -45,7 +45,7 @@
 									</li>
 									<li>
 										<i class="flaticon-multimedia-1"></i>
-										<a href="#">info.apsara.fund@gmail.com</a>
+										<a href="#">info@apsara.fund</a>
 									</li>
 									<li>
 										<i class="fa fa-phone" aria-hidden="true"></i>
