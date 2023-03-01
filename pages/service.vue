@@ -10,7 +10,9 @@
         <!-- /.theme-title-one -->
         <div class="wrapper">
           <div class="row">
-            <div class="col-lg-4 col-sm-6 col-12">
+            <div
+            @click="goToDetail"
+            class="col-lg-4 col-sm-6 col-12">
               <div class="single-solution-block">
                 <img src="images/icon/7.png" alt="" class="icon" />
                 <h5><a >SME Readiness for <br> Apara Impact Fund Program</a></h5>
@@ -21,7 +23,7 @@
               <!-- /.single-solution-block -->
             </div>
             <!-- /.col- -->
-            <div class="col-lg-4 col-sm-6 col-12">
+            <div  @click="goToDetail" class="col-lg-4 col-sm-6 col-12">
               <div class="single-solution-block">
                 <img src="images/icon/8.png" alt="" class="icon" />
                 <h5><a>Apsara Impact for Enterprises</a></h5>
@@ -32,7 +34,7 @@
               <!-- /.single-solution-block -->
             </div>
             <!-- /.col- -->
-            <div class="col-lg-4 col-sm-6 col-12">
+            <div     @click="goToDetail" class="col-lg-4 col-sm-6 col-12">
               <div class="single-solution-block">
                 <img src="images/icon/6.png" alt="" class="icon" />
                 <h5><a >Apara Investment  Matching Program</a></h5>
@@ -43,7 +45,7 @@
               <!-- /.single-solution-block -->
             </div>
             <!-- /.col- -->
-            <div class="col-lg-6 col-sm-6 col-12">
+            <div     @click="goToDetail" class="col-lg-6 col-sm-6 col-12">
               <div class="single-solution-block">
                 <img src="images/icon/9.png" alt="" class="icon" />
                 <h5><a>Apsara Impact for NextGen</a></h5>
@@ -54,7 +56,7 @@
               <!-- /.single-solution-block -->
             </div>
             <!-- /.col- -->
-            <div class="col-lg-6 col-sm-6 col-12">
+            <div     @click="goToDetail" class="col-lg-6 col-sm-6 col-12">
               <div class="single-solution-block">
                 <img src="images/icon/5.png" alt="" class="icon" />
                 <h5><a>Crowdfunding Platform</a></h5>
@@ -193,6 +195,12 @@ export default {
       ]
     };
   },
-  components: { carousel }
+  components: { carousel },
+  methods: {
+    async goToDetail()
+    {
+      await this.$router.push({ name: "service_detail" });
+    }
+  }
 };
 </script>
