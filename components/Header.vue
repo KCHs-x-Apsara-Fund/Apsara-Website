@@ -30,7 +30,7 @@
                     <a v-bind:class="{ active: currentRoute === '/team' }"
                     ><NuxtLink to="/team">
                     <button class="dropdown-item" type="button">
-                      Our Team
+                      Team
                     </button>
                   </NuxtLink>
                     </a
@@ -89,9 +89,10 @@
                     <a>About Us</a>
                   </NuxtLink>
                 </li>
+                <li>/</li>
                 <li v-bind:class="{ active: currentRoute === '/team' }">
                   <NuxtLink to="/team">
-                    <a>Our Team</a>
+                    <a>Team</a>
                   </NuxtLink>
                 </li>
                 <li>/</li>
