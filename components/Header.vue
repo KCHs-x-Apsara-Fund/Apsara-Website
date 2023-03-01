@@ -1,6 +1,6 @@
 <template>
   <header class="header-two">
-   
+
 
     <div class="theme-menu-wrapper ">
       <div class="container .header">
@@ -16,7 +16,7 @@
                     <i class="fa fa-bars" aria-hidden="true"></i>
                   </button>
                   <ul class="dropdown-menu">
-                    
+
 
                     <a v-bind:class="{ active: currentRoute === '/about' }"
                       ><NuxtLink to="/about">
@@ -26,6 +26,15 @@
                     </NuxtLink>
                       </a
                     >
+
+                    <a v-bind:class="{ active: currentRoute === '/team' }"
+                    ><NuxtLink to="/team">
+                    <button class="dropdown-item" type="button">
+                      Our Team
+                    </button>
+                  </NuxtLink>
+                    </a
+                  >
 
 
                     <a  v-bind:class="{ active: currentRoute === '/why' }"
@@ -74,10 +83,15 @@
           <div class="menu-wrapper float-left">
             <nav id="mega-menu-holder" class="clearfix">
               <ul id="horizontal-list">
-                
+
                 <li v-bind:class="{ active: currentRoute === '/about' }">
                   <NuxtLink to="/about">
                     <a>About Us</a>
+                  </NuxtLink>
+                </li>
+                <li v-bind:class="{ active: currentRoute === '/team' }">
+                  <NuxtLink to="/team">
+                    <a>Our Team</a>
                   </NuxtLink>
                 </li>
                 <li>/</li>
