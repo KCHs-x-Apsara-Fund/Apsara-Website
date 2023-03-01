@@ -58,7 +58,7 @@
   .ch1 {
     font-size: 40px;
     font-weight: 900;
-    line-height: 70px;
+    line-height: 50px;
 }
   .btnr{
     display: block;
@@ -153,6 +153,8 @@
   }
   .HT{
     font-size: 30px;
+    font-weight: 900;
+    line-height: 35px;
   }
 
   .dropdown-menu{
@@ -206,7 +208,8 @@
 @media (max-width: 575px) {
   .HT{
     font-size: 20px;
-    line-height: 30px;
+    line-height: 20px;
+    font-weight: 800;
   }
   .carousel-caption {
     position: absolute;

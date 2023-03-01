@@ -41,7 +41,7 @@
 								<ul>
 									<li>
 										<i class="flaticon-direction-signs"></i>
-										Phnom Penh, Cambodia
+										The Point Community Mall, Phnom Penh, Cambodia
 									</li>
 									<li>
 										<i class="flaticon-multimedia-1"></i>
