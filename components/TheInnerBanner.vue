@@ -4,7 +4,7 @@
 				Theme Inner Banner
 			==============================================
 			-->
-  <div class="theme-inner-banner section-spacing">
+  <div class="theme-inner-banner section-spacing" style="margin-top: 0px;">
     <div class="overlay">
       <div class="container">
         <h2>{{ title }}</h2>
