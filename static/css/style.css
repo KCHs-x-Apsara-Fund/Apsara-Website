@@ -89,6 +89,7 @@
 ====================================================================
 
  ***/
+ 
 #loader-wrapper {
   position: fixed;
   top: 0;
@@ -153,7 +154,9 @@
   position: relative;
  }
 
-
+.line{
+  background-color: #9ca6bf;
+}
 
 
 
@@ -203,6 +206,7 @@
 }
 
 .carousel-inner-a {
+  margin-bottom: 75px;
   padding: 0;
 }
 .carousel-control-prev,
@@ -240,7 +244,7 @@
  button {border:none;outline: none;box-shadow: none;display: block; padding: 0;cursor: pointer;}
  button:focus {outline: none;}
  input,textarea {outline: none; box-shadow: none;transition: all 0.3s ease-in-out;}
-.section-spacing {margin-bottom: 100px; margin-top: 100px;}
+.section-spacing {margin-bottom: 100px; margin-top: 10px;}
 .m-top0 {margin-top: 0 !important;}
 .m-bottom0 {margin-bottom: 0 !important;}
 .p-bottm0 {padding-bottom: 0 !important;}
