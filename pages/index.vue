@@ -143,12 +143,112 @@
     </div>
     <!-- /.our-solution -->
 
+    			<!--
+			=====================================================
+				Short Banner
+			=====================================================
+			-->
+			<div class="short-banner  mb-10">
+				<div class="overlay">
+					<div class="container">
+						<h2>Integrity, Do-no harm, Empire, Accountability or IDEA</h2>
+					</div>
+				</div> <!-- /.overlay -->
+			</div> <!-- /.short-banner -->
+
+      <div class="our-case event-news section-spacing ">
+      <div class="container">
+        <div class="theme-title-one mt-5">
+          <h2>News</h2>
+        </div>
+        <div class="wrapper">
+          <div class="event-review-tab mb-2 mt-5">
+            <div class="tab-content">
+              <div id="news" class="tab-pane active">
+                <div class="row">
+                  <div class="col-xl-12 col-lg-12 col-12 our-blog">
+                    <div class="post-wrapper row px-4">
+                      <div
+                        v-for="news in blogs"
+                        :key="news.title"
+                        class="col-md-4 col-12 mb-4"
+                      >
+                        <div class="single-blog">
+                          <div class="image-box">
+                            <img src="images/blog/3.jpg" alt="" />
+                            <div class="overlay">
+                              <a href="#" class="date">{{ news.date }}</a>
+                            </div>
+                          </div>
+                          <!-- /.image-box -->
+                          <div class="post-meta">
+                            <h5 class="title">
+                              <a
+                                v-if="news.title.length < 40"
+                               
+                                >{{ news.title }}</a
+                              >
+                              <a v-else >{{
+                                news.title.substring(0, 25) + "...."
+                              }}</a>
+                            </h5>
+                            <p>
+                              {{ news.desc.length > 120 ? news.desc.substring(0, 120) + '...' : news.desc }}
+                            </p>
+                            <a class="read-more"
+                              >READ MORE</a
+                            >
+                          </div>
+                          <!-- /.post-meta -->
+                        </div>
+                        <!-- /.single-blog -->
+                      </div>
+                      <!-- /.col- -->
+                    </div>
+                  </div>
+                  <!-- /.col- -->
+                </div>
+                <!-- /.row -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </div>
+
+
 
   </body>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      blogs: [
+        {
+          title: "What is Impact Investing?",
+          desc: 'Impact investing integrates financial returns with positive social or environmental impact. This impact may be quantified in terms of access to products and services, or economic opportunities for excluded communities, such as affordable mortgages to poor households or jobs for rural women.',
+          date: "Feb 06, 2023"
+        },
+        {
+          title: "What is Impact Investing?",
+          desc: 'Impact investing integrates financial returns with positive social or environmental impact. This impact may be quantified in terms of access to products and services, or economic opportunities for excluded communities, such as affordable mortgages to poor households or jobs for rural women.',
+          date: "Feb 06, 2023"
+        },
+        {
+          title: "What is Impact Investing?",
+          desc: 'Impact investing integrates financial returns with positive social or environmental impact. This impact may be quantified in terms of access to products and services, or economic opportunities for excluded communities, such as affordable mortgages to poor households or jobs for rural women.',
+          date: "Feb 06, 2023"
+        },
+        
+      ],
+    
+    };
+  },
+  methods: {}
+};
 </script>
 
 <style>
