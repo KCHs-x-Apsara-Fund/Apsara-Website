@@ -159,33 +159,31 @@
                   <div class="col-xl-12 col-lg-12 col-12 our-blog">
                     <div class="post-wrapper row px-4">
                       <div
-                        v-for="blog in blogs"
-                        :key="blog.title"
+                        v-for="news in blogs"
+                        :key="news.title"
                         class="col-md-4 col-12 mb-4"
                       >
                         <div class="single-blog">
                           <div class="image-box">
                             <img src="images/blog/3.jpg" alt="" />
                             <div class="overlay">
-                              <a href="#" class="date">{{ blog.date }}</a>
+                              <a href="#" class="date">{{ news.date }}</a>
                             </div>
                           </div>
                           <!-- /.image-box -->
                           <div class="post-meta">
                             <h5 class="title">
                               <a
-                                v-if="blog.title.length < 40"
+                                v-if="news.title.length < 40"
                                 href="event-details.html"
-                                >{{ blog.title }}</a
+                                >{{ news.title }}</a
                               >
                               <a v-else href="event-details.html">{{
-                                blog.title.substring(0, 25) + "...."
+                                news.title.substring(0, 25) + "...."
                               }}</a>
                             </h5>
                             <p>
-                              To seek out new life and new civilizations to
-                              boldly go where no man has gone before you would
-                              see the biggest gift.
+                              {{ news.desc.length > 120 ? news.desc.substring(0, 120) + '...' : news.desc }}
                             </p>
                             <a href="event-details.html" class="read-more"
                               >READ MORE</a
@@ -232,16 +230,33 @@ export default {
     return {
       blogs: [
         {
-          title: "International Law Enforcement Intellectual Property",
+          title: "What is Impact Investing?",
+          desc: 'Impact investing integrates financial returns with positive social or environmental impact. This impact may be quantified in terms of access to products and services, or economic opportunities for excluded communities, such as affordable mortgages to poor households or jobs for rural women.',
           date: "Feb 06, 2023"
         },
         {
-          title: "International Law Enforcement",
+          title: "What is Impact Investing?",
+          desc: 'Impact investing integrates financial returns with positive social or environmental impact. This impact may be quantified in terms of access to products and services, or economic opportunities for excluded communities, such as affordable mortgages to poor households or jobs for rural women.',
           date: "Feb 06, 2023"
         },
         {
-          title:
-            "International Law Enforcement Intellectual Property Crime Conference",
+          title: "What is Impact Investing?",
+          desc: 'Impact investing integrates financial returns with positive social or environmental impact. This impact may be quantified in terms of access to products and services, or economic opportunities for excluded communities, such as affordable mortgages to poor households or jobs for rural women.',
+          date: "Feb 06, 2023"
+        },
+        {
+          title: "What is Impact Investing?",
+          desc: 'Impact investing integrates financial returns with positive social or environmental impact. This impact may be quantified in terms of access to products and services, or economic opportunities for excluded communities, such as affordable mortgages to poor households or jobs for rural women.',
+          date: "Feb 06, 2023"
+        },
+        {
+          title: "What is Impact Investing?",
+          desc: 'Impact investing integrates financial returns with positive social or environmental impact. This impact may be quantified in terms of access to products and services, or economic opportunities for excluded communities, such as affordable mortgages to poor households or jobs for rural women.',
+          date: "Feb 06, 2023"
+        },
+        {
+          title: "What is Impact Investing?",
+          desc: 'Impact investing integrates financial returns with positive social or environmental impact. This impact may be quantified in terms of access to products and services, or economic opportunities for excluded communities, such as affordable mortgages to poor households or jobs for rural women.',
           date: "Feb 06, 2023"
         }
       ],
