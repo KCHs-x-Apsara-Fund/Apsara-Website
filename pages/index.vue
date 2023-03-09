@@ -26,20 +26,19 @@
       <div class="carousel-inner-a">
         <div class="carousel-item active">
           <img
-            src="/images/home/2.jpg"
-            alt="Los Angeles"
+            :src="homeAttributes.image"
             class="d-block"
             style="width:100%"
           />
           <div class="carousel-caption">
             <p class="wow fadeInUp animated">
-              Apsara Fund Management
+              {{ homeAttributes.small_title  }}
             </p>
             <h1 class="ch1 wow fadeInUp animated HT" data-wow-delay="0.2s">
-              Delivering Sustainable Financial Management Solutions For Impact Investment
+             {{ homeAttributes.big_title }}
             </h1>
             <a
-              href="about.html"
+           
               class="theme-button-one wow fadeInUp animated"
               data-wow-delay="0.39s"
               >ABOUT US</a
@@ -225,7 +224,7 @@
 <script>
 export default {
   data() {
-    return {
+    return {  
       blogs: [
         {
           title: "What is Impact Investing?",
@@ -244,9 +243,23 @@ export default {
         },
         
       ],
+      
+ 
     
     };
+      carousels : {},
+      home : {},
+      homeAttributes : {},
   },
+    async fetch() {
+
+      
+      this.carousels = await fetch(
+        'http://localhost:1338/api/home-carousel'
+      ).then(res => res.json())
+      this.home = await this.carousels.data
+      this.homeAttributes = await this.home.attributes
+    }
   methods: {}
 };
 </script>
