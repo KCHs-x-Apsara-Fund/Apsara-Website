@@ -3,40 +3,21 @@
     <!-- Carousel -->
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
       <!-- Indicators/dots -->
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#demo"
-          data-bs-slide-to="0"
-          class="active"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#demo"
-          data-bs-slide-to="1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#demo"
-          data-bs-slide-to="2"
-        ></button>
-      </div>
 
       <!-- The slideshow/carousel -->
       <div class="carousel-inner-a">
         <div class="carousel-item active">
           <img
-            src="/images/home/2.jpg"
-            alt="Los Angeles"
+            :src="homeAttributes.image"
             class="d-block"
             style="width:100%"
           />
           <div class="carousel-caption">
             <p class="wow fadeInUp animated">
-              Apsara Fund Management
+              {{ homeAttributes.small_title  }}
             </p>
             <h1 class="ch1 wow fadeInUp animated HT" data-wow-delay="0.2s">
-              Delivering Sustainable Financial Management Solutions For Impact Investment
+              {{ homeAttributes.big_title }}
             </h1>
             <a
               href="about.html"
@@ -67,7 +48,6 @@
         <span class="carousel-control-next-icon"></span>
       </button>
     </div>
-
 
     <div class="our-solution section-spacing">
       <div class="container">
@@ -143,11 +123,8 @@
     </div>
     <!-- /.our-solution -->
 
-    			<!--
-			=====================================================
-				Short Banner
-			=====================================================
-			-->
+
+
 			<div class="short-banner  mb-10">
 				<div class="overlay">
 					<div class="container">
@@ -244,10 +221,30 @@ export default {
         },
         
       ],
-    
-    };
+      posts: [],
+
+      carousels : {},
+      home : {},
+      homeAttributes : {},
+
+      }
   },
-  methods: {}
+
+ /* async fetchStapi(){
+     const ip = await fetch('http://localhost:1338/api/home-carousel')
+     this.carousels = await ip.json()
+  }
+*/
+  async fetch() {
+
+      
+      this.carousels = await fetch(
+        'https://apsara-fund.onrender.com/api/home-carousel'
+      ).then(res => res.json())
+      this.home = await this.carousels.data
+      this.homeAttributes = await this.home.attributes
+    }
+  
 };
 </script>
 

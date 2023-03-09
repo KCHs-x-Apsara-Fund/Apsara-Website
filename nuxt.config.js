@@ -72,6 +72,7 @@ export default {
 		// https://github.com/nuxt-community/robots-module
 		'@nuxtjs/robots',
 	],
+
 	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
 	buildModules: [
 		'@nuxt/postcss8',
@@ -90,6 +91,7 @@ export default {
  	generate: {
 		fallback: true
 	},
+
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {
 		postcss: {

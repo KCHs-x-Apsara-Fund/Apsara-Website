@@ -36,7 +36,6 @@
                     </a
                   >
 
-
                     <a  v-bind:class="{ active: currentRoute === '/why' }"
                       >
                       <NuxtLink to="/why">
