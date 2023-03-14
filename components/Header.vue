@@ -74,7 +74,7 @@
           <div class="logo float-left">
             <a  style="padding: 10px;">
               <NuxtLink to="/">
-              <img src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/icon.png?alt=media&token=eaa4e572-ce0f-46c5-9af3-aa4366f0be65" alt="" />
+              <img src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/logo.png?alt=media&token=f26e57a2-dcff-433e-9212-5967c0aedf75" alt="" />
             </NuxtLink>
             </a>
           </div>
