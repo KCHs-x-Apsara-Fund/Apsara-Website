@@ -5,7 +5,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-3 col-sm-12 col-10 logo-widget">
-								<div class="logo"><a><img class="mx-auto d-block" src="/images/logo/logo2.png" alt=""></a></div>
+								<div class="logo"><a><img class="mx-auto d-block" src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/icon.png?alt=media&token=eaa4e572-ce0f-46c5-9af3-aa4366f0be65" alt=""></a></div>
 								<p >Apsara envisiones​​ the professional and sustainable investments in financial and asset management.</p>
 								<hr class="mt-1 mr-4 line"/>
 								<ul class="social-icon">  
