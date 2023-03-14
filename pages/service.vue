@@ -14,7 +14,7 @@
             @click="goToDetail"
             class="col-lg-4 col-sm-6 col-12">
               <div class="single-solution-block">
-                <img src="images/icon/7.png" alt="" class="icon" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/7.png?alt=media&token=d369e0de-a49d-4fc3-8d5f-34496ded7581" alt="" class="icon" />
                 <h5><a >SME Readiness for <br> Apara Impact Fund Program</a></h5>
                 <p>
                   Curate a pool of impact investment projects that meet our rigorous standards for environmental, social, and governance practices.
