@@ -128,24 +128,16 @@
                   <div class="col-md-6">
                     <input type="text" placeholder="Phone *" />
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-12">
                     <input type="email" placeholder="Email *" />
                   </div>
-                  <div class="col-md-6">
-                    <select class="form-control" id="exampleSelect1">
-                      <option>Service you’re looking for?</option>
-                      <option>Business Services</option>
-                      <option>Consumer Product</option>
-                      <option>Financial Services</option>
-                      <option>Software Research</option>
-                    </select>
-                  </div>
+                
                   <div class="col-12">
                     <textarea placeholder="Message"></textarea>
                   </div>
                 </div>
                 <!-- /.row -->
-                <button class="theme-button-one">GET A QUOTES</button>
+                <button class="theme-button-one">Submit</button>
               </form>
             </div>
             <!-- /.form-wrapper -->
@@ -157,7 +149,6 @@
       <!-- /.container -->
     </div>
     <!-- /.consultation-form -->
-    <ThePartnerSlider />
     <!-- /.top-feature -->
   </div>
 </template>

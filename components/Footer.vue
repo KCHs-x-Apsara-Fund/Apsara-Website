@@ -10,9 +10,8 @@
 								<hr class="mt-1 mr-4 line"/>
 								<ul class="social-icon">  
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-								
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 								</ul>	
 							</div> <!-- /.logo-widget -->
 							<div class="col-lg-1 col-sm-0 col-10 footer-list">

@@ -17,7 +17,7 @@
               <p>
                 Apara Fund Management is an investment management firm
                 headquartered in Phnom Penh, Cambodia. The firm was founded in
-                2023 by Vandong Thorn, and it primarily focuses on sustainable
+                2022, and it primarily focuses on sustainable
                 financial investment to small and growing businesses (SGBs) in
                 Southeast Asia. Apara Fund management aims to offer critical
                 financial, educational, and business support services to SGBs
@@ -79,134 +79,14 @@
               </div>
               <!-- /.presentation-section -->
 
-              <div class="our-team section-spacing">
-                <div class="container">
-                  <h3 id="meet-us" class="main-title">Meet Us</h3>
-                  <p>
-                    Our success is down to the hard work of literally remarkable
-                    people. Here’s an introduction to some of the senior members
-                    of our team.
-                  </p>
-                  <!--
-			=============================================
-				Core Values
-			==============================================
-			-->
-
-                  <!--
-			=====================================================
-				Our Team
-			=====================================================
-			-->
-                  <div class="our-team section-spacing">
-                    <div class="container">
-                      <div class="wrapper">
-                        <div class="row">
-                          <div
-                            class="col-lg-3 col-sm-6 col-12"
-                            v-for="person in teams"
-                            :key="person.id"
-                            @click="openProfile(i)"
-                          >
-                            <div class="team-member">
-                              <div class="image-box">
-                                <img :src="person.image" alt="" />
-                                <div class="overlay">
-                                  <div class="hover-content">
-                                    <ul>
-                                      <li>
-                                        <a href="#"
-                                          ><i
-                                            class="fa fa-facebook"
-                                            aria-hidden="true"
-                                          ></i
-                                        ></a>
-                                      </li>
-                                      <li>
-                                        <a href="#"
-                                          ><i
-                                            class="fa fa-twitter"
-                                            aria-hidden="true"
-                                          ></i
-                                        ></a>
-                                      </li>
-                                      <li>
-                                        <a href="#"
-                                          ><i
-                                            class="fa fa-pinterest"
-                                            aria-hidden="true"
-                                          ></i
-                                        ></a>
-                                      </li>
-                                    </ul>
-                                    <p></p>
-                                  </div>
-                                  <!-- /.hover-content -->
-                                </div>
-                                <!-- /.overlay -->
-                              </div>
-                              <!-- /.image-box -->
-                              <div class="text">
-                                <h6>{{ person.name }}</h6>
-                                <p class="p-2">
-                                  {{
-                                    person.position.length > 50
-                                      ? person.position.substring(0, 50) + "..."
-                                      : person.position
-                                  }}
-                                </p>
-                              </div>
-                              <!-- /.text -->
-                            </div>
-                            <!-- /.team-member -->
-                          </div>
-
-                          <!-- /.col- -->
-                        </div>
-                        <!-- /.row -->
-                      </div>
-                      <!-- /.wrapper -->
-                    </div>
-                    <!-- /.container -->
-                  </div>
-                  <!-- /.our-team -->
-
-                  <!-- /.wrapper -->
-                </div>
-                <!-- /.container -->
-              </div>
-              <!-- /.our-team -->
+          
 
               <!-- /.topics -->
             </div>
             <!-- /.service-content -->
           </div>
           <!-- /.col- -->
-          <div
-            class="col-xl-3 col-lg-4 col-md-6 col-sm-8 col-12 theme-sidebar-one"
-          >
-            <div class="sidebar-box service-categories">
-              <h5 class="title">Table of content</h5>
-              <ul>
-                <li><a href="/about#history">History</a></li>
-                <li><a href="/about#mission">Mission</a></li>
-                <li><a href="/about#vission">Vission</a></li>
-                <li><a href="/about#meet-us">Meet our team</a></li>
-              </ul>
-            </div>
-
-            <!-- /.sidebar-brochures -->
-            <div class="sidebar-box sidebar-contact">
-              <h5 class="title">Contact Form</h5>
-              <form action="#">
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Email" />
-                <textarea placeholder="Message"></textarea>
-                <button class="theme-button-one">SUBMIT</button>
-              </form>
-            </div>
-            <!-- /.sidebar-contact -->
-          </div>
+       
           <!-- /.theme-sidebar-one -->
         </div>
         <!-- /.row -->
@@ -214,7 +94,52 @@
       <!-- /.container -->
     </div>
     <!-- /.service-details -->
-    <ThePartnerSlider />
+    <div id="contact-us" class="consultation-form section-spacing">
+      <div class="container">
+        <div class="theme-title-one">
+          <h2>FREE CONSULTATION</h2>
+          <p>
+            Looking for more information on how we can help your company? Please
+            fill out the form below and one of the friendly folks will get.
+          </p>
+        </div>
+        <!-- /.theme-title-one -->
+        <div class="clearfix main-content no-gutters row">
+          <div class="col-xl-6 col-lg-5 col-12">
+            <div class="img-box">
+              <img src="images/home/free_consult.png" alt="" />
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-7 col-12">
+            <div class="form-wrapper">
+              <form action="#" class="theme-form-one">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Name *" />
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Phone *" />
+                  </div>
+                  <div class="col-md-12">
+                    <input type="email" placeholder="Email *" />
+                  </div>
+              
+                  <div class="col-12">
+                    <textarea placeholder="Message"></textarea>
+                  </div>
+                </div>
+                <!-- /.row -->
+                <button class="theme-button-one">Submit</button>
+              </form>
+            </div>
+            <!-- /.form-wrapper -->
+          </div>
+          <!-- /.col- -->
+        </div>
+        <!-- /.main-content -->
+      </div>
+      <!-- /.container -->
+    </div>
   </div>
 </template>
 

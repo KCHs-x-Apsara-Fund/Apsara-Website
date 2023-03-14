@@ -123,7 +123,6 @@
     </div>
     <!-- /.why-we-best -->
 
-    <ThePartnerSlider />
   </div>
 </template>
 
