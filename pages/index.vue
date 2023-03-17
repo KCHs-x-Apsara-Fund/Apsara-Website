@@ -3,21 +3,40 @@
     <!-- Carousel -->
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
       <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="2"
+        ></button>
+      </div>
 
       <!-- The slideshow/carousel -->
       <div class="carousel-inner-a">
         <div class="carousel-item active">
           <img
-            :src="homeAttributes.image"
+            src="/images/home/2.jpg"
+            alt="Los Angeles"
             class="d-block"
             style="width:100%"
           />
           <div class="carousel-caption">
             <p class="wow fadeInUp animated">
-              {{ homeAttributes.small_title  }}
+              Apsara Fund Management
             </p>
             <h1 class="ch1 wow fadeInUp animated HT" data-wow-delay="0.2s">
-              {{ homeAttributes.big_title }}
+              Delivering Sustainable Financial Management Solutions For Impact Investment
             </h1>
             <a
               href="about.html"
@@ -48,6 +67,7 @@
         <span class="carousel-control-next-icon"></span>
       </button>
     </div>
+
 
     <div class="our-solution section-spacing">
       <div class="container">
