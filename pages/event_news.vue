@@ -46,36 +46,36 @@
                                 <h5 class="title">
                                   <a
                                     v-if="u_event.title.length < 70"
-                                    href="event_detail"
+                                     :href="'event_detail?id=' + u_event.id"
                                     >{{ u_event.title }}</a
                                   >
-                                  <a v-else href="event_detail">{{
+                                  <a v-else :href="'event_detail?id=' + u_event.id">{{
                                     u_event.title.substring(0, 70) + "...."
                                   }}</a>
                                 </h5>
                                 <div>
                                   <div class="row">
                                     <div class="col-12 col-md-3 px-auto">
-                                      <a href="#" class="date">
+                                      <a :href="'event_detail?id=' + u_event.id" class="date">
                                         <i class="fa fa-calendar"></i>
                                         {{ u_event.date }}</a
                                       >
                                     </div>
                                     <div class="col-12 col-md-2">
-                                      <a href="#" class="time">
+                                      <a :href="'event_detail?id=' + u_event.id" class="time">
                                         <i class="fa fa-clock-o"></i>
                                         {{ u_event.time }}</a
                                       >
                                     </div>
                                     <div class="col-12 col-md-4">
-                                      <a href="#" class="location">
+                                      <a :href="'event_detail?id=' + u_event.id" class="location">
                                         <i class="fa fa-location-arrow"></i>
                                         {{ u_event.location }}</a
                                       >
                                     </div>
                                     <div class="d-flex col-12 col-md-3">
                                       <a
-                                        href="event_detail"
+                                        :href="'event_detail?id=' + u_event.id"
                                         class="read-more ml-auto">READ MORE</a>
                                     </div>
                                   </div>
@@ -106,36 +106,36 @@
                                 <h5 class="title">
                                   <a
                                     v-if="p_event.title.length < 70"
-                                    href="event-details.html"
+                                    :href="'event_detail?id=' + p_event.id"
                                     >{{ p_event.title }}</a
                                   >
-                                  <a v-else href="event-details.html">{{
+                                  <a v-else :href="'event_detail?id=' + p_event.id">{{
                                     p_event.title.substring(0, 70) + "...."
                                   }}</a>
                                 </h5>
                                 <div>
                                   <div class="row">
                                     <div class="col-12 col-md-3 px-auto">
-                                      <a href="#" class="date">
+                                      <a :href="'event_detail?id=' + p_event.id" class="date">
                                         <i class="fa fa-calendar"></i>
                                         {{ p_event.date }}</a
                                       >
                                     </div>
                                     <div class="col-12 col-md-2">
-                                      <a href="#" class="time">
+                                      <a :href="'event_detail?id=' + p_event.id" class="time">
                                         <i class="fa fa-clock-o"></i>
                                         {{ p_event.time }}</a
                                       >
                                     </div>
                                     <div class="col-12 col-md-4">
-                                      <a href="#" class="location">
+                                      <a :href="'event_detail?id=' + p_event.id" class="location">
                                         <i class="fa fa-location-arrow"></i>
                                         {{ p_event.location }}</a
                                       >
                                     </div>
                                     <div class="d-flex col-12 col-md-3">
                                       <a
-                                        href="event-details.html"
+                                        :href="'event_detail?id=' + p_event.id"
                                         class="read-more ml-auto">READ MORE</a>
                                     </div>
                                   </div>
@@ -262,6 +262,7 @@ export default {
       ],
       past_events: [
         {
+          id: 2,
           title: "24th INTERPOL Asian Regional Conference",
           date: "Tue 28 Feb, 2023",
           time: "8:00",
@@ -269,6 +270,7 @@ export default {
           img: 'images/event/1.jpg'
         },
         {
+          id: 3,
           title: "SME EXPORT TALKS 10: CAMBODIA EXPORT OF SERVICES",
           date: "Tue 28 Feb, 2023",
           time: "8:30",
@@ -277,6 +279,7 @@ export default {
         }
       ],
       up_events: [{
+        id: 1,
         title: 'ACHIEVING ENERGY EFFICIENCY: POLICIES AND BEST PRACTICES',
         date: 'Fri 17 Mar, 2023',
         time: '8:00',
