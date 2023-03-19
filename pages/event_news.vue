@@ -165,7 +165,7 @@
                       >
                         <div class="single-blog">
                           <div class="image-box">
-                            <img src="images/blog/3.jpg" alt="" />
+                            <img src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/3.jpg?alt=media&token=8ca69686-1df8-47cd-9666-21d8f709b092" alt="" />
                             <div class="overlay">
                               <a href="#" class="date">{{ news.date }}</a>
                             </div>
@@ -175,17 +175,17 @@
                             <h5 class="title">
                               <a
                                 v-if="news.title.length < 40"
-                                href="event-details.html"
+                               
                                 >{{ news.title }}</a
                               >
-                              <a v-else href="event-details.html">{{
+                              <a v-else >{{
                                 news.title.substring(0, 25) + "...."
                               }}</a>
                             </h5>
                             <p>
                               {{ news.desc.length > 120 ? news.desc.substring(0, 120) + '...' : news.desc }}
                             </p>
-                            <a href="event-details.html" class="read-more"
+                            <a class="read-more"
                               >READ MORE</a
                             >
                           </div>
@@ -267,7 +267,7 @@ export default {
           date: "Tue 28 Feb, 2023",
           time: "8:00",
           location: "Phnom Penh",
-          img: 'images/event/1.jpg'
+          img: 'https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/1.jpg?alt=media&token=f873d3a1-4755-4369-9995-01bea498eb97'
         },
         {
           id: 3,
@@ -275,7 +275,7 @@ export default {
           date: "Tue 28 Feb, 2023",
           time: "8:30",
           location: "Raintree Phnom Penh",
-          img: 'images/event/3.png'
+          img: 'https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/3.png?alt=media&token=8d385e54-ff42-482e-a019-d1711bff1ab0'
         }
       ],
       up_events: [{
@@ -284,7 +284,7 @@ export default {
         date: 'Fri 17 Mar, 2023',
         time: '8:00',
         location: 'Sofitel Phnom Penh Phokeethra',
-        img: 'images/event/2.png'
+        img: 'https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/2.png?alt=media&token=0ee67dd0-a231-4ff9-ac2f-f49a5e398b33'
       }]
     };
   },

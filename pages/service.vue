@@ -88,7 +88,7 @@
             We provide high quality services &amp; innovative solutions for the
             realiable growth
           </h2>
-          <a href="#contact-us" class="theme-button-one">LET'S CONNECT</a>
+          <a  class="theme-button-one">LET'S CONNECT</a>
         </div>
         <!-- /.container -->
       </div>
@@ -114,7 +114,7 @@
         <div class="clearfix main-content no-gutters row">
           <div class="col-xl-6 col-lg-5 col-12">
             <div class="img-box">
-              <img src="images/home/free_consult.png" alt="" />
+              <img src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/free_consult.png?alt=media&token=30ff4d4c-1ce0-4396-be21-920d585a5352" alt="" />
             </div>
           </div>
           <div class="col-xl-6 col-lg-7 col-12">
