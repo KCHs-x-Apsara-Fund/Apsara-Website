@@ -46,7 +46,7 @@
             >
           </div>
         </div>
-      
+
       </div>
 
       <!-- Left and right controls/icons -->
@@ -133,7 +133,7 @@
             </div>
             <!-- /.col- -->
           </div>
-        
+
 
           <!-- /.row -->
         </div>
@@ -152,6 +152,8 @@
 					</div>
 				</div> <!-- /.overlay -->
 			</div> <!-- /.short-banner -->
+
+        <Portfolio />
 
       <div class="our-case event-news section-spacing ">
       <div class="container">
@@ -182,7 +184,7 @@
                             <h5 class="title">
                               <a
                                 v-if="news.title.length < 40"
-                               
+
                                 >{{ news.title }}</a
                               >
                               <a v-else >{{
@@ -239,7 +241,7 @@ export default {
           desc: 'Impact investing integrates financial returns with positive social or environmental impact. This impact may be quantified in terms of access to products and services, or economic opportunities for excluded communities, such as affordable mortgages to poor households or jobs for rural women.',
           date: "Feb 06, 2023"
         },
-        
+
       ],
       posts: [],
 
@@ -257,14 +259,14 @@ export default {
 */
   async fetch() {
 
-      
+
       this.carousels = await fetch(
         'https://apsara-fund.onrender.com/api/home-carousel'
       ).then(res => res.json())
       this.home = await this.carousels.data
       this.homeAttributes = await this.home.attributes
     }
-  
+
 };
 </script>
 
