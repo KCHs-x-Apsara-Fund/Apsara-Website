@@ -89,7 +89,7 @@
 ====================================================================
 
  ***/
- 
+
 #loader-wrapper {
   position: fixed;
   top: 0;
@@ -2162,7 +2162,7 @@ ul#horizontal-list {
 /*----------------------------- Event Page --------------------------*/
 .event-news .product-details .product-info .order-box {margin: 35px 0 30px 0;}
 .event-news .event-review-tab {
-  border: 1px solid #d7d7d7;
+  background-color: #f1f1f6;
   border-radius: 5px;
   margin: 100px 0 75px 0;
   padding: 22px 40px 20px 40px;
@@ -2203,6 +2203,19 @@ ul#horizontal-list {
   -webkit-line-clamp: 2; /* number of lines to show */
   line-clamp: 2;
   -webkit-box-orient: vertical;
+}
+#news .single-blog .post-meta {
+  box-shadow: 0px 3px 10px -3px #0000001f;
+  padding: 10px;
+  background-color: #fff;
+}
+#events .single-blog .content-box {
+  box-shadow: 0px 3px 10px -3px #0000001f;
+  padding: 10px 20px 10px 20px;
+  background-color: #fff;
+}
+#events .single-blog .image {
+  padding-right: 0px !important;
 }
 .post-meta .date {
   font-size: 14px;

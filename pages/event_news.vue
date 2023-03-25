@@ -35,13 +35,13 @@
                         class="col-md-12 col-12 mb-4">
                         <div class="single-blog">
                           <div class="row">
-                            <div class="col-12 col-md-3">
+                            <div class="image col-12 col-md-3">
                               <div class="image-box">
                                 <img :src="u_event.img" alt="" />
                               </div>
                               <!-- /.image-box -->
                             </div>
-                            <div class="col-12 col-md-9">
+                            <div class="content-box col-12 col-md-9">
                               <div class="post-meta">
                                 <h5 class="title">
                                   <a
@@ -95,13 +95,13 @@
                         class="col-md-12 col-12 mb-4">
                         <div class="single-blog">
                           <div class="row">
-                            <div class="col-12 col-md-3">
+                            <div class="image col-12 col-md-3">
                               <div class="image-box">
                                 <img :src="p_event.img" alt="" />
                               </div>
                               <!-- /.image-box -->
                             </div>
-                            <div class="col-12 col-md-9">
+                            <div class="content-box col-12 col-md-9">
                               <div class="post-meta">
                                 <h5 class="title">
                                   <a
@@ -165,7 +165,7 @@
                       >
                         <div class="single-blog">
                           <div class="image-box">
-                            <img src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/3.jpg?alt=media&token=8ca69686-1df8-47cd-9666-21d8f709b092" alt="" />
+                            <img src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/3.png?alt=media&token=8d385e54-ff42-482e-a019-d1711bff1ab0" alt="" />
                             <div class="overlay">
                               <a href="#" class="date">{{ news.date }}</a>
                             </div>
@@ -175,7 +175,7 @@
                             <h5 class="title">
                               <a
                                 v-if="news.title.length < 40"
-                               
+
                                 >{{ news.title }}</a
                               >
                               <a v-else >{{
@@ -183,7 +183,7 @@
                               }}</a>
                             </h5>
                             <p>
-                              {{ news.desc.length > 120 ? news.desc.substring(0, 120) + '...' : news.desc }}
+                              {{ news.desc.length > 100 ? news.desc.substring(0, 100) + '...' : news.desc }}
                             </p>
                             <a class="read-more"
                               >READ MORE</a
