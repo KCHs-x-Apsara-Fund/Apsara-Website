@@ -138,7 +138,7 @@
 /*______________________ Global stlye ___________________*/
 
  @font-face {
-  font-family: 'font-awesome';
+  font-family: 'Futura';
   src: url('../fonts/font-awesome/fonts/fontawesome-webfont.ttf');
   src: url('../fonts/font-awesome/fonts/fontawesome-webfont.eot'), /* IE9 Compat Modes */
        url('../fonts/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
@@ -146,8 +146,18 @@
        url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
  }
 
+ /* Futura Font Face */
+  @font-face {
+    font-family: 'Futura';
+    src: url('../fonts/Futura/Futura-Book.ttf');
+    src: url('../fonts/Futura/Futura-Book.eot'), /* IE9 Compat Modes */
+        url('../fonts/Futura/Futura-Book.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/Futura/Futura-Book.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/Futura/Futura-Book.svg') format('svg'); /* Legacy iOS */
+  }
+
  body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Futura', sans-serif;
   font-weight: normal;
   color:#555555;
   font-size: 18px;
@@ -229,7 +239,7 @@
 }
  .main-page-wrapper {overflow-x:hidden;}
  h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
- h1,h2,h3,h4,h5,h6 {font-family: 'Nunito Sans', sans-serif; color: #232323;}
+ h1,h2,h3,h4,h5,h6 {font-family: 'Futura', sans-serif;  color: #232323;}
  h1 {font-size: 60px; font-weight: 900;line-height: 70px;}
  h2 {font-size: 38px; font-weight: 900;}
  h3 {font-size: 32px; font-weight: 700;}
@@ -238,7 +248,7 @@
  h6 {font-size: 20px; font-weight: normal;}
  p {line-height: 27px;}
  ul {list-style-type: none;}
- body a {text-decoration: none;color: #232323; display: inline-block;font-family: 'Nunito Sans', sans-serif;}
+ body a {text-decoration: none;color: #232323; display: inline-block;font-family: 'Futura', sans-serif; }
  a:hover,a:focus,a:visited {text-decoration: none; outline: none;}
  img {max-width: 100%; display: block; }
  button {border:none;outline: none;box-shadow: none;display: block; padding: 0;cursor: pointer;}
@@ -397,7 +407,7 @@ body .theme-button-two:hover {background:#c3c3c3; }
 #polyglotLanguageSwitcher {margin-left:25px;}
 #polyglotLanguageSwitcher span.trigger:before {
   content: '';
-  font-family: 'font-awesome';
+  font-family: 'Futura';
   position: absolute;
   color:#fff;
   top:0;
@@ -437,7 +447,7 @@ body .theme-button-two:hover {background:#c3c3c3; }
   font-size: 16px;
 }
 .theme-menu-wrapper .right-widget .cart-icon a span {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Futura', sans-serif;
   position: absolute;
   width: 15px;
   height: 15px;
@@ -751,7 +761,7 @@ body .theme-button-two:hover {background:#c3c3c3; }
 }
 .testimonial-section .wrapper .bg:before {
   content: '';
-  font-family: 'font-awesome';
+  font-family: 'Futura';
   position: absolute;
   top:30px;
   right: -10px;
@@ -850,7 +860,7 @@ body .theme-button-two:hover {background:#c3c3c3; }
 .theme-counter h2 {font-size: 42px;font-weight: 700;padding: 12px 0 35px 0;}
 .cunter-wrapper {width: 75%;margin: 0 auto; text-align: center;}
 .single-counter-box .number {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Futura', sans-serif;
   font-weight: 300;
   font-size: 40px;
 }
@@ -897,7 +907,7 @@ body .theme-button-two:hover {background:#c3c3c3; }
   padding: 0 0 10px 0;
   margin-bottom: 32px;
 }
-.theme-form-one .theme-button-one { font-family: 'Nunito Sans', sans-serif;}
+.theme-form-one .theme-button-one { font-family: 'Futura', sans-serif; }
 /*------------------- Partner Slider ------------------*/
 .partner-section {padding: 22px 0;}
 .partner-section.bg-color {background: #f8faff;}
@@ -973,7 +983,7 @@ body .theme-button-two:hover {background:#c3c3c3; }
 }
 .theme-footer-one .top-footer .footer-list ul li:before {
   content: '';
-  font-family: 'font-awesome';
+  font-family: 'Futura';
   font-size: 10px;
   color: #9ca6bf;
   position: absolute;
@@ -1056,7 +1066,7 @@ body .theme-button-two:hover {background:#c3c3c3; }
 }
 .theme-footer-two .top-footer .footer-list ul li:before {
   content: '';
-  font-family: 'font-awesome';
+  font-family: 'Futura';
   font-size: 10px;
   color: #9ca6bf;
   position: absolute;
@@ -1585,7 +1595,7 @@ body .theme-button-two:hover {background:#c3c3c3; }
 }
 .service-details .service-content .market-growth ul li:before {
   content: '';
-  font-family: 'font-awesome';
+  font-family: 'Futura';
   font-size: 12px;
   color: #232323;
   line-height: 34px;
@@ -1647,7 +1657,7 @@ body .theme-button-two:hover {background:#c3c3c3; }
 }
 .blog-sidebar .sidebar-categories ul li a:before {
   content: '';
-  font-family: 'font-awesome';
+  font-family: 'Futura';
   font-size: 12px;
   position: absolute;
   line-height: 35px;
@@ -1694,7 +1704,7 @@ body .theme-button-two:hover {background:#c3c3c3; }
 }
 .blog-sidebar .sidebar-archives ul li a:before {
   content: '';
-  font-family: 'font-awesome';
+  font-family: 'Futura';
   font-size: 14px;
   position: absolute;
   line-height: 32px;
@@ -1744,7 +1754,7 @@ body .theme-button-two:hover {background:#c3c3c3; }
 .blog-details .share-option .social-icon li {
   display: inline-block;
   vertical-align: middle;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Futura', sans-serif;
   font-weight: 600;
   color: #232323;
 }
@@ -2021,7 +2031,7 @@ ul#horizontal-list {
   vertical-align: middle;
 }
 .shop-details .product-details .product-info .order-box li:nth-child(1) {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Futura', sans-serif;
   color: #232323;
   margin-right: 5px;
 }
@@ -2120,7 +2130,7 @@ ul#horizontal-list {
 }
 .faq-page .panel-group .panel-heading.active-panel h6 a:before {
   content: '';
-  font-family: 'font-awesome';
+  font-family: 'Futura';
   font-size: 14px;
 }
 .faq-page .panel-group .panel-heading {border-bottom:1px solid #efefef;}
