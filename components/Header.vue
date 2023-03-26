@@ -89,25 +89,25 @@
                     <a>About Us</a>
                   </NuxtLink>
                 </li>
-                <li>/</li>
+                <li></li>
                 <li v-bind:class="{ active: currentRoute === '/team' }">
                   <NuxtLink to="/team">
                     <a>Team</a>
                   </NuxtLink>
                 </li>
-                <li>/</li>
+                <li></li>
                 <li v-bind:class="{ active: currentRoute === '/why' }">
                   <NuxtLink to="/why">
                     <a>Why ESG Investment?</a>
                   </NuxtLink>
                 </li>
-                <li>/</li>
+                <li></li>
                 <li v-bind:class="{ active: currentRoute === '/service' }">
                   <NuxtLink to="/service">
                     <a>Our services</a>
                   </NuxtLink>
                 </li>
-                <li>/</li>
+                <li></li>
                 <li v-bind:class="{ active: currentRoute === '/event_news' }">
                   <NuxtLink to="/event_news">
                     <a>Events & News</a>
@@ -137,3 +137,39 @@ export default {
   }
 };
 </script>
+<style scoped>
+.active {
+  background-color: #1b4277;
+  color: white !important;
+
+  border: 1px solid #1b4277;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.active a {
+  color: white !important;
+  font-weight: bold;
+
+}
+
+.active button {
+  color: white !important;
+  font-weight: bold;
+
+}
+
+.active button:hover {
+  color: #1b4277 !important;
+  font-weight: bold;
+}
+
+.theme-menu-wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+</style>
