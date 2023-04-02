@@ -38,13 +38,13 @@
                 and consumer goods.
               </p>
               <hr class="hr" style="margin-right: 95%; ">
-              <h3 id="vission" class="main-title">Vissions</h3>
+              <h3 id="vission" class="main-title">Vision</h3>
               <p>
                 Apsara envisiones​​ the professional and sustainable investments
                 in financial and asset management.
               </p>
               <hr class="hr" style="margin-right: 95%; ">
-              <h3 id="mission" class="main-title">Missions</h3>
+              <h3 id="mission" class="main-title">Mission</h3>
               <p>
                 Our platform is committed to delivering sustainable financial
                 management solutions for impactful investments that are
