@@ -471,9 +471,9 @@ body .theme-button-two:hover {background:#c3c3c3; }
   -webkit-transform:none !important;
           transform:none !important;
   position: absolute;
-
+  
   height:400px;
-  width: 210px;
+  width: 240px;
   padding: 5px;
   border-radius: 0;
   right: 0 !important;
@@ -1022,7 +1022,12 @@ body .theme-button-two:hover {background:#c3c3c3; }
 .theme-footer-one .top-footer .footer-newsletter ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #9ca6bf;
 }
-
+.hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 5px solid #1b4277;
+}
 .theme-footer-one .top-footer .footer-newsletter :-ms-input-placeholder { /* Internet Explorer 10-11 */
   color: #9ca6bf;
 }
@@ -1047,10 +1052,13 @@ body .theme-button-two:hover {background:#c3c3c3; }
   font-size: 17px;
   line-height: 25px;
   color: #9ca6bf;
-  padding: 15px 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  ;
 }
 .theme-footer-two .logo-widget .social-icon li {display: inline-block;margin-right: 15px;}
-.theme-footer-two .logo-widget .social-icon li a {font-size: 15px;color: #ccd1dd;}
+.theme-footer-two .logo-widget .social-icon li a {font-size: 20px;color: #fff;}
 .theme-footer-two .logo-widget .social-icon li a:hover {color: #fff;}
 .theme-footer-two .top-footer .title {
   color: #fff;
@@ -1061,11 +1069,9 @@ body .theme-button-two:hover {background:#c3c3c3; }
 }
 .theme-footer-two .top-footer .footer-list ul li {
   line-height: 35px;
-  padding-left: 20px;
   position: relative;
 }
 .theme-footer-two .top-footer .footer-list ul li:before {
-  content: '';
   font-family: 'Futura';
   font-size: 10px;
   color: #9ca6bf;
@@ -1095,13 +1101,14 @@ body .theme-button-two:hover {background:#c3c3c3; }
 .theme-footer-two .top-footer .contact-widget ul li:last-child {padding-bottom: 0;}
 .theme-footer-two .top-footer .contact-widget ul li a {
   font-family: 'Source Sans Pro', sans-serif;
-  color: #9ca6bf;
+  color: #EAF6FD;
 }
 .theme-footer-two .top-footer .contact-widget ul li i {
-  font-size: 22px;
+  font-size: 25px;
   position: absolute;
   top:8px;
   left:0;
+  color: #fff;
 }
 .theme-footer-two .bottom-footer {
   margin-top: 60px;
@@ -1416,9 +1423,9 @@ body .theme-button-two:hover {background:#c3c3c3; }
   background-color: #707d9e;
 }
 .theme-inner-banner .overlay {
-  background: rgba(0,26,87,0.4);
+  background: rgba(27, 66, 119, 0.7);
   text-align: center;
-  padding: 110px 0 70px 0;
+  padding: 180px 0 70px 0;
 }
 .theme-inner-banner .overlay h2 {font-size: 45px;color: #fff;text-transform: uppercase;}
 /*------------------- Why WE Best -------------------*/

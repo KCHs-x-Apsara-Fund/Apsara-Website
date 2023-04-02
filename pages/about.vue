@@ -13,6 +13,7 @@
           <div class="col-xl-9 col-lg-8 col-12">
             <div class="service-content">
               <!-- <img src="images/home/20.jpg" alt="" class="cover-img" /> -->
+              <hr class="hr" style="margin-right: 95%; ">
               <h3 id="history" class="main-title">History</h3>
               <p>
                 Apara Fund Management is an investment management firm
@@ -36,13 +37,13 @@
                 range of sectors, including education, healthcare, agriculture,
                 and consumer goods.
               </p>
-
+              <hr class="hr" style="margin-right: 95%; ">
               <h3 id="vission" class="main-title">Vissions</h3>
               <p>
                 Apsara envisiones​​ the professional and sustainable investments
                 in financial and asset management.
               </p>
-
+              <hr class="hr" style="margin-right: 95%; ">
               <h3 id="mission" class="main-title">Missions</h3>
               <p>
                 Our platform is committed to delivering sustainable financial
@@ -51,6 +52,7 @@
               </p>
 
               <div id="vission" class="presentation-section">
+                <hr class="hr" style="margin-right: 95%; ">
                 <h3 class="main-title">Goals</h3>
 
                 <div class="row">

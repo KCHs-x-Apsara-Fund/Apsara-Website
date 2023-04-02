@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TheInnerBanner title="Service" />
+    <TheInnerBanner title="Solutions" />
     <div class="our-solution section-spacing">
       <div class="container">
         <div class="theme-title-one">

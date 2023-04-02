@@ -15,7 +15,7 @@
                     data-toggle="dropdown">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                   </button>
-                  <ul class="dropdown-menu">
+                  <ul class="dropdown-menu col-auto">
 
 
                     <a v-bind:class="{ active: currentRoute === '/about' }"
@@ -41,7 +41,7 @@
                       >
                       <NuxtLink to="/why">
                       <button class="dropdown-item" type="button">
-                        Why ESG Investment?
+                        ESG & Impact Investing
                       </button>
                       </NuxtLink>
 
@@ -52,7 +52,7 @@
                       >
                       <NuxtLink to="/service">
                       <button class="dropdown-item" type="button">
-                        Our Services
+                        Solutions
                       </button>
                     </NuxtLink>
                       </a
@@ -98,13 +98,13 @@
                 <li></li>
                 <li v-bind:class="{ active: currentRoute === '/why' }">
                   <NuxtLink to="/why">
-                    <a>Why ESG Investment?</a>
+                    <a>ESG & Impact Investing</a>
                   </NuxtLink>
                 </li>
                 <li></li>
                 <li v-bind:class="{ active: currentRoute === '/service' }">
                   <NuxtLink to="/service">
-                    <a>Our services</a>
+                    <a>Solutions</a>
                   </NuxtLink>
                 </li>
                 <li></li>

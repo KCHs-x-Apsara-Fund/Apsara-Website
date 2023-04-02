@@ -6,9 +6,9 @@
 						<div class="row">
 							<div class="col-lg-3 col-sm-12 col-10 logo-widget">
 								<div class="logo"><a><img class="mx-auto d-block" src="/images/logo/logo2.png" alt=""></a></div>
-								<p >Apsara envisiones​​ the professional and sustainable investments in financial and asset management.</p>
+								<p>Apsara envisiones​​ the professional and sustainable investments in financial and asset management.</p>
 								<hr class="mt-1 mr-4 line"/>
-								<ul class="social-icon">  
+								<ul class="social-icon ">  
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -28,12 +28,12 @@
 									</li>
 									<li>
 										<NuxtLink to="/why">
-										<a >Why ESG Investment?</a>
+										<a >ESG & Impact Investing</a>
 										</NuxtLink>
 									</li>
 									<li>
 										<NuxtLink to="/service">
-										<a >Our Services</a>
+										<a >Solutions</a>
 										</NuxtLink>
 									</li>
 									<li>
@@ -80,16 +80,16 @@
 								<h6 class="title">CONTACT</h6>
 								<ul>
 									<li>
-										<i class="flaticon-direction-signs"></i>
-										The Point Community Mall, Phnom Penh, Cambodia
+										<i class="fa fa-map-marker" aria-hidden="true"></i>
+										<a>The Point Community Mall, Phnom Penh, Cambodia</a>
 									</li>
 									<li>
 										<i class="flaticon-multimedia-1"></i>
-										<a href="#">info@apsara.fund</a>
+										<a >info@apsara.fund</a>
 									</li>
 									<li>
 										<i class="fa fa-phone" aria-hidden="true"></i>
-										<a href="#">(+855) 70 788 973</a>
+										<a >(+855) 70 788 973</a>
 									</li>
 								</ul>
 							</div> <!-- /.contact-widget -->
