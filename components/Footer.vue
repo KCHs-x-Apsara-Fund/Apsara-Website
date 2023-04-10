@@ -5,9 +5,9 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-3 col-sm-12 col-10 logo-widget">
-								<div class="logo"><a><img class="mx-auto d-block" src="/images/logo/logo2.png" alt=""></a></div>
+								<div class="logo"><a><img width="126" height="126" class="mx-auto d-block" src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/APSARA%20Bottom%20Logo-01.png?alt=media&token=476c6495-848d-4638-94c9-9be0c5b25192" alt=""></a></div>
 								<p>Apsara envisiones​​ the professional and sustainable investments in financial and asset management.</p>
-								<hr class="mt-1 mr-4 line"/>
+								<hr style="height:4px" class="mt-1 mr-4 line"/>
 								<ul class="social-icon ">  
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>

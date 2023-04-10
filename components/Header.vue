@@ -27,14 +27,7 @@
                       </a
                     >
 
-                    <a v-bind:class="{ active: currentRoute === '/team' }"
-                    ><NuxtLink to="/team">
-                    <button class="dropdown-item" type="button">
-                      Team
-                    </button>
-                  </NuxtLink>
-                    </a
-                  >
+                    
 
 
                     <a  v-bind:class="{ active: currentRoute === '/why' }"
@@ -57,11 +50,19 @@
                     </NuxtLink>
                       </a
                     >
+
+                    <a v-bind:class="{ active: currentRoute === '/team' }"
+                    ><NuxtLink to="/team">
+                    <button class="dropdown-item" type="button">
+                      Team
+                    </button>
+                  </NuxtLink>
+                    </a>
                     <a v-bind:class="{ active: currentRoute === '/event_news' }"
                       >
                       <NuxtLink to="/event_news">
                       <button class="dropdown-item" type="button">
-                        Events & News
+                        News & Events
                       </button>
                     </NuxtLink>
                       </a
@@ -86,31 +87,32 @@
 
                 <li v-bind:class="{ active: currentRoute === '/about' }">
                   <NuxtLink to="/about">
-                    <a>About Us</a>
+                    <a style="font-weight: bold;">About Us</a>
                   </NuxtLink>
                 </li>
-                <li></li>
-                <li v-bind:class="{ active: currentRoute === '/team' }">
-                  <NuxtLink to="/team">
-                    <a>Team</a>
-                  </NuxtLink>
-                </li>
+                
                 <li></li>
                 <li v-bind:class="{ active: currentRoute === '/why' }">
                   <NuxtLink to="/why">
-                    <a>ESG & Impact Investing</a>
+                    <a style="font-weight: bold;">ESG & Impact Investing</a>
                   </NuxtLink>
                 </li>
                 <li></li>
                 <li v-bind:class="{ active: currentRoute === '/service' }">
                   <NuxtLink to="/service">
-                    <a>Services</a>
+                    <a style="font-weight: bold;">Services</a>
+                  </NuxtLink>
+                </li>
+                <li></li>
+                <li v-bind:class="{ active: currentRoute === '/team' }">
+                  <NuxtLink to="/team">
+                    <a style="font-weight: bold;">Team</a>
                   </NuxtLink>
                 </li>
                 <li></li>
                 <li v-bind:class="{ active: currentRoute === '/event_news' }">
                   <NuxtLink to="/event_news">
-                    <a>Events & News</a>
+                    <a style="font-weight: bold;">News & Events</a>
                   </NuxtLink>
                 </li>
               </ul>

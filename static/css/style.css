@@ -1026,7 +1026,7 @@ body .theme-button-two:hover {background:#c3c3c3; }
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 5px solid #1b4277;
+    border-top: 4px solid #1b4277;
 }
 .theme-footer-one .top-footer .footer-newsletter :-ms-input-placeholder { /* Internet Explorer 10-11 */
   color: #9ca6bf;
@@ -1101,14 +1101,14 @@ body .theme-button-two:hover {background:#c3c3c3; }
 .theme-footer-two .top-footer .contact-widget ul li:last-child {padding-bottom: 0;}
 .theme-footer-two .top-footer .contact-widget ul li a {
   font-family: 'Source Sans Pro', sans-serif;
-  color: #EAF6FD;
+
 }
 .theme-footer-two .top-footer .contact-widget ul li i {
   font-size: 25px;
   position: absolute;
   top:8px;
   left:0;
-  color: #fff;
+
 }
 .theme-footer-two .bottom-footer {
   margin-top: 60px;
