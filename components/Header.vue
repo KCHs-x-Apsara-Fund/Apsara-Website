@@ -141,7 +141,7 @@ export default {
 .active {
 
   color: white !important;
-  border-bottom: 2px solid #1b4277;
+  border-bottom: 4px solid #1b4277;
   
   padding: 5px;
 }
