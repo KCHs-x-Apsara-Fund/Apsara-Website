@@ -139,16 +139,15 @@ export default {
 </script>
 <style scoped>
 .active {
-  background-color: #1b4277;
-  color: white !important;
 
-  border: 1px solid #1b4277;
-  border-radius: 5px;
+  color: white !important;
+  border-bottom: 2px solid #1b4277;
+  
   padding: 5px;
 }
 
 .active a {
-  color: white !important;
+  color: #1b4277 !important;
   font-weight: bold;
 
 }
