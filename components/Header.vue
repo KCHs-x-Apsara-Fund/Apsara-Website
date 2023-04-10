@@ -52,7 +52,7 @@
                       >
                       <NuxtLink to="/service">
                       <button class="dropdown-item" type="button">
-                        Solutions
+                        Services
                       </button>
                     </NuxtLink>
                       </a
@@ -74,7 +74,7 @@
           <div class="logo float-left">
             <a  style="padding: 10px;">
               <NuxtLink to="/">
-              <img src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/logo.png?alt=media&token=f26e57a2-dcff-433e-9212-5967c0aedf75" alt="" />
+              <img width="79" height="75" src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/Apsara%20Header%20Logo-01.png?alt=media&token=128a0594-32fa-45f5-b94d-c712d1940947" alt="" />
             </NuxtLink>
             </a>
           </div>
@@ -104,7 +104,7 @@
                 <li></li>
                 <li v-bind:class="{ active: currentRoute === '/service' }">
                   <NuxtLink to="/service">
-                    <a>Solutions</a>
+                    <a>Services</a>
                   </NuxtLink>
                 </li>
                 <li></li>
@@ -153,7 +153,7 @@ export default {
 }
 
 .active button {
-  color: white !important;
+  color: #1b4277!important;
   font-weight: bold;
 
 }

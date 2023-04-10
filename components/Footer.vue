@@ -81,7 +81,7 @@
 								<ul>
 									<li>
 										<i class="fa fa-map-marker" aria-hidden="true"></i>
-										<a>The Point Community Mall, Phnom Penh, Cambodia</a>
+										<a>The Point Community Mall, 3rd Floor(U07), Mao Tse Tung Blvd, Phnom Penh, Cambodia</a>
 									</li>
 									<li>
 										<i class="flaticon-multimedia-1"></i>
