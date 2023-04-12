@@ -33,7 +33,7 @@
 									</li>
 									<li>
 										<NuxtLink to="/service">
-										<a >Solutions</a>
+										<a >Services</a>
 										</NuxtLink>
 									</li>
 									<li>
