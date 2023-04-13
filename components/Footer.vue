@@ -9,9 +9,9 @@
 								<p>Apsara envisiones​​ the professional and sustainable investments in financial and asset management.</p>
 								<hr style="height:4px" class="mt-1 mr-4 line"/>
 								<ul class="social-icon ">  
-									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="http://www.facebook.com/apsarafund" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="http://www.linkedin.com/company/apsarafund/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="http://www.twitter.com/apsarafund" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 								</ul>	
 							</div> <!-- /.logo-widget -->
 							<div class="col-lg-1 col-sm-0 col-10 footer-list">
@@ -33,7 +33,7 @@
 									</li>
 									<li>
 										<NuxtLink to="/service">
-										<a >Services</a>
+										<a >Solutions</a>
 										</NuxtLink>
 									</li>
 									<li>
