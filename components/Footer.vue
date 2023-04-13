@@ -45,31 +45,31 @@
 							</div>
 
 							<div class="col-lg-3 col-sm-3 col-10 footer-list">
-								<h6 class="title">SOLUTIONS</h6>
+								<h6 class="title">SERVICES</h6>
 								<ul>
 									<li>
 										<NuxtLink to="/">
-										<a >SME Readiness </a>
-										</NuxtLink>
-									</li>
-									<li>
-										<NuxtLink to="/">
-										<a >Apsara Impact for Enterprises</a>
-										</NuxtLink>
-									</li>
-									<li>
-										<NuxtLink to="/">
-										<a >Apara Investment </a>
-										</NuxtLink>
-									</li>
-									<li>
-										<NuxtLink to="/event_news">
-										<a >Apsara Impact for NextGen</a>
-										</NuxtLink>
-									</li>
-									<li>
-										<NuxtLink to="/event_news">
 										<a >Crowdfunding Platform</a>
+										</NuxtLink>
+									</li>
+									<li>
+										<NuxtLink to="/">
+										<a >Pitch Competition</a>
+										</NuxtLink>
+									</li>
+									<li>
+										<NuxtLink to="/">
+										<a >Impact Trust Funds</a>
+										</NuxtLink>
+									</li>
+									<li>
+										<NuxtLink to="/event_news">
+										<a >ESG for Enterprise</a>
+										</NuxtLink>
+									</li>
+									<li>
+										<NuxtLink to="/event_news">
+										<a >APSARA EmpowerU Program</a>
 										</NuxtLink>
 									</li>
 								</ul>
