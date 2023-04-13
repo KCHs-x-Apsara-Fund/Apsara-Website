@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TheInnerBanner title="About Us" />
+    <TheInnerBanner class="section-spacing-solution" title="About Us" />
 
     <!--
 			=============================================
