@@ -1,11 +1,8 @@
 <template>
   <div>
-    <TheInnerBanner title="Services" />
-    <div class="our-solution section-spacing">
+    <TheInnerBanner class="section-spacing-solution" title="Services" />
+    <div class="our-solution ">
       <div class="container">
-        <div class="theme-title-one">
-          <h2>Our SERVICES</h2>
-        </div>
         <!-- /.theme-title-one -->
         <div class="wrapper">
           <div class="row">
