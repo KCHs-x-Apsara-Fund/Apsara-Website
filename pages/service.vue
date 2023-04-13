@@ -89,7 +89,6 @@
             We provide high quality services &amp; innovative solutions for the
             realiable growth
           </h2>
-          <a  class="theme-button-one">LET'S CONNECT</a>
         </div>
         <!-- /.container -->
       </div>

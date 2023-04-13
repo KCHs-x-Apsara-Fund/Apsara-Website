@@ -144,7 +144,7 @@ export default {
 <style>
 .why-we-best {
   height: 1330px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .why-we-best .overlay {
