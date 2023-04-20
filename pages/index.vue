@@ -78,13 +78,13 @@
         <div class="wrapper">
           <div class="row">
             <div
-           
+            @click="goToDetail"
             class="col-lg-4 col-sm-6 col-12">
               <div class="single-solution-block">
-                <img width="200" height="220" src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/icons%2F5%20Services%20Icon%20-%20APSARA-01.png?alt=media&token=b3cf5c12-ec3c-4ce8-8dff-806dfa4b9fa1" alt="" class="icon" />
-                <h5><a >Crowdfunding Platform</a></h5>
+                <img width="200" height="220" src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/icons%2F5%20Services%20Icon%20-%20APSARA-03.png?alt=media&token=cb04d4f0-af76-4545-b4af-c185d46e9d37" alt="" class="icon" />
+                <h5><a >Trust Fund</a></h5>
                 <p>
-                  a trusted and equity-based platform that is specifically focused on impact investments. We offer membership subscriptions for qualified enterprises and projects to attract a large crowd of impact investors around the world.
+                  a service for angel investors, venture capitalists, and family offices to manage and invest funds for commercial and/or charitable purposes.
 
                 
                 </p>
@@ -92,47 +92,51 @@
               <!-- /.single-solution-block -->
             </div>
             <!-- /.col- -->
-            <div class="col-lg-4 col-sm-6 col-12">
+            <div  @click="goToDetail" class="col-lg-4 col-sm-6 col-12">
               <div class="single-solution-block">
-                <img width="200" height="220" src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/icons%2F5%20Services%20Icon%20-%20APSARA-02.png?alt=media&token=2e6d2d95-c972-4811-a11c-21a3e03d7729" alt="" class="icon" />
-                <h5><a>Pitch Competition</a></h5>
+                <img width="200" height="220" src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/icons%2F5%20Services%20Icon%20-%20APSARA-06.png?alt=media&token=eae5bf31-6cee-4055-852d-1356267b4d25" alt="" class="icon" />
+                <h5><a>Investment Matching</a></h5>
                 <p>
-                  a great opportunity for entrepreneurs to showcase their businesses. APSARA Fund provides a structured environment for entrepreneurs to pitch their ideas, receive feedback, and obtain impact capitals.
+                  a service that brings impact investors and growing SMEs together to identify and invest in the right opportunities, increasing the chances of success and maximizing social and commercial returns.
 
                 </p>
               </div>
               <!-- /.single-solution-block -->
             </div>
             <!-- /.col- -->
-            <div   class="col-lg-4 col-sm-6 col-12">
+            <div     @click="goToDetail" class="col-lg-4 col-sm-6 col-12">
               <div class="single-solution-block">
-                <img width="200" height="220" src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/icons%2F5%20Services%20Icon%20-%20APSARA-03.png?alt=media&token=0bd7ceea-e022-45ee-af89-17dd83d78d56" alt="" class="icon" />
-                <h5><a >Impact Trust Funds</a></h5>
+                <img width="200" height="220" src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/icons%2F5%20Services%20Icon%20-%20APSARA-01.png?alt=media&token=8304f34f-9a2a-4de2-84dc-0b707b28244e" alt="" class="icon" />
+                <h5><a >Crowdfunding Platform</a></h5>
                 <p>
-                  a service for angel investors, venture capitalists, and family offices to manage and invest funds for commercial and/or charitable purposes.
+                  a trusted and equity-based platform that is specifically focused on impact investments. We offer membership subscriptions for qualified enterprises and projects to attract a large crowd of impact investors around the world.
 
                 </p>
               </div>
               <!-- /.single-solution-block -->
             </div>
             <!-- /.col- -->
-            <div   class="col-lg-6 col-sm-6 col-12">
+            <div     @click="goToDetail" class="col-lg-6 col-sm-6 col-12">
               <div class="single-solution-block">
-                <img width="200" height="220" src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/icons%2F5%20Services%20Icon%20-%20APSARA-04.png?alt=media&token=166e474a-df89-4d4d-ab17-a821a6cb5540" alt="" class="icon" />
+                <img width="200" height="220" src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/icons%2F5%20Services%20Icon%20-%20APSARA-04.png?alt=media&token=b18f1c76-3078-4fa1-9cfa-46a9888ecf6b" alt="" class="icon" />
                 <h5><a>ESG for Enterprise</a></h5>
                 <p style="margin-left: 15%;margin-right: 15%;">
+
                   a comprehensive ESG disclosure and reporting service, along with training courses, to help enterprises achieve sustainability and improve their impact.
+
                 </p>
               </div>
               <!-- /.single-solution-block -->
             </div>
             <!-- /.col- -->
-            <div class="col-lg-6 col-sm-6 col-12">
+            <div     @click="goToDetail" class="col-lg-6 col-sm-6 col-12">
               <div class="single-solution-block">
-                <img width="200" height="220" src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/icons%2F5%20Services%20Icon%20-%20APSARA-05.png?alt=media&token=d275f89d-590a-48f9-860e-f07a9914b242" alt="" class="icon" />
+                <img width="200" height="220" src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/icons%2F5%20Services%20Icon%20-%20APSARA-05.png?alt=media&token=f7f2e001-801e-460c-8ccf-cdd5bf83fd22" alt="" class="icon" />
                 <h5><a>APSARA EmpowerU Program</a></h5>
                 <p style="margin-left: 15%;margin-right: 15%;">
+
                   a financial literacy workshop series for high school and university students, designed to provide a general understanding of impact investing and ESG principles, along with practical guidance on launching successful impact projects that create positive change for people and the planet.
+                
                 </p>
               </div>
               <!-- /.single-solution-block -->

@@ -37,8 +37,13 @@
 										</NuxtLink>
 									</li>
 									<li>
+										<NuxtLink to="/team">
+										<a >Sources</a>
+										</NuxtLink>
+									</li>
+									<li>
 										<NuxtLink to="/event_news">
-										<a >Events &News</a>
+										<a >News & Events</a>
 										</NuxtLink>
 									</li>
 								</ul>
