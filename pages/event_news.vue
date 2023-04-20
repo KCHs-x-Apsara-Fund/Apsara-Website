@@ -183,7 +183,7 @@
                               }}</a>
                             </h5>
                             <p>
-                              {{ news.desc.length > 100 ? news.desc.substring(0, 100) + '...' : news.desc }}
+                              {{ news.desc.length > 120 ? news.desc.substring(0, 120) + '...' : news.desc }}
                             </p>
                             <a class="read-more"
                               >READ MORE</a

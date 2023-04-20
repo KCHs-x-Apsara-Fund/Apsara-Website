@@ -23,12 +23,7 @@
 								<ul>
 									<li>
 										<NuxtLink to="/about">
-										<a >About us</a>
-										</NuxtLink>
-									</li>
-									<li>
-										<NuxtLink to="/why">
-										<a >ESG & Impact Investing</a>
+										<a >About Us</a>
 										</NuxtLink>
 									</li>
 									<li>
@@ -36,6 +31,12 @@
 										<a >Services</a>
 										</NuxtLink>
 									</li>
+									<li>
+										<NuxtLink to="/why">
+										<a >ESG & Impact Investing</a>
+										</NuxtLink>
+									</li>
+									
 									<li>
 										<NuxtLink to="/sources">
 										<a >Sources</a>

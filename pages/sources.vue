@@ -11,72 +11,57 @@
           <div class="container">
             <div class="wrapper">
               <hr class="hr" style="margin-right: 95%; ">
-              <h3 class="main-title">Board of Director</h3>
+              <h3 style="margin-bottom: 3%;" class="main-title">Legal Documents</h3>
               
-              <div class="row">
-  
-                <div
-                  class="col-lg-3 col-sm-6 col-12"
-                  v-for="person in teams"
-                  :key="person.id"
-                  @click="openProfile(i)"
-                >
-  
-                  <div class="team-member">
-                    <div class="image-box">
-                      <img :src="person.image" alt="" />
-                      <div class="overlay">
-                        <div class="hover-content">
-                          <ul>
-                            <li>
-                              <a href="#"
-                                ><i
-                                  class="fa fa-facebook"
-                                  aria-hidden="true"
-                                ></i
-                              ></a>
-                            </li>
-                            <li>
-                              <a href="#"
-                                ><i
-                                  class="fa fa-twitter"
-                                  aria-hidden="true"
-                                ></i
-                              ></a>
-                            </li>
-                            <li>
-                              <a href="#"
-                                ><i
-                                  class="fa fa-pinterest"
-                                  aria-hidden="true"
-                                ></i
-                              ></a>
-                            </li>
-                          </ul>
-                          <p></p>
+            <div class="event-review-tab mb-2">
+              <div id="news" class="tab-pane">
+                <div class="row">
+                  <div class="col-xl-12 col-lg-12 col-12 our-blog">
+                    <div class="post-wrapper row px-4" >
+                      <div 
+                        v-for="news in Legals"
+                        :key="news.desc"
+                        class="col-md-4 col-12 mb-4" >
+                        <a :href="news.link" target="_blank" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                        <div class="single-blog">
+                          
+                          <div class="image-box">
+                            
+                            <img :src="news.img"/>
+                          
+                          </div>
+                          <!-- /.image-box -->
+                          <div style="text-align: center;" class="post-meta">
+                            <h5 class="title">
+                              <a
+                                v-if="news.title.length "
+
+                                >{{ news.title }}</a
+                              >
+                            
+                            </h5>
+                            <p style="text-align: justify;">
+                              {{ news.desc.length > 100 ? news.desc.substring(0, 200) + '' : news.desc }}
+                            </p>
+                            <a class="read-more">Download</a>
+                          </div>
+                          
+                          <!-- /.post-meta -->
                         </div>
-                        <!-- /.hover-content -->
+                        </a>
+                        <!-- /.single-blog -->
                       </div>
-                      <!-- /.overlay -->
+                      <!-- /.col- -->
                     </div>
-                    <!-- /.image-box -->
-                    <div class="text">
-                      <h6>{{ person.name }}</h6>
-                      <p class="p-2">
-                        {{
-                          person.position.length > 50
-                            ? person.position.substring(0, 50) + "..."
-                            : person.position
-                        }}
-                      </p>
-                    </div>
-                    <!-- /.text -->
                   </div>
-                  <!-- /.team-member -->
+                  <!-- /.col- -->
                 </div>
-  
-                <!-- /.col- -->
+                <!-- /.row -->
+              
               </div>
+          </div>
+
+
               <!-- /.row -->
             </div>
             <!-- /.wrapper -->
@@ -84,48 +69,101 @@
           <!-- /.container -->
         </div>
         <!-- /.our-team -->
+
+        <div class="our-team section-spacing">
+          <div class="container">
+            <div class="wrapper">
+              <hr class="hr" style="margin-right: 95%; ">
+              <h3 style="margin-bottom: 3%;" class="main-title">Knowledges</h3>
+              
+            <div class="event-review-tab mb-2">
+              <div id="news" class="tab-pane">
+                <div class="row">
+                  <div class="col-xl-12 col-lg-12 col-12 our-blog">
+                    <div class="post-wrapper row px-4" >
+                      <div 
+                        v-for="news in Knowledges"
+                        :key="news.desc"
+                        class="col-md-4 col-12 mb-4" >
+                        <a :href="news.link" target="_blank" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                        <div class="single-blog">
+                          
+                          <div class="image-box">
+                            
+                            <img :src="news.img"/>
+                          
+                          </div>
+                          <!-- /.image-box -->
+                          <div style="text-align: center;" class="post-meta">
+                            <h5 class="title">
+                              <a
+                                v-if="news.title.length "
+
+                                >{{ news.title }}</a
+                              >
+                            
+                            </h5>
+                            <p style="text-align: justify;">
+                              {{ news.desc.length > 100 ? news.desc.substring(0, 201) + '' : news.desc }}
+                            </p>
+                            <a class="read-more">Download</a>
+                          </div>
+                          
+                          <!-- /.post-meta -->
+                        </div>
+                        </a>
+                        <!-- /.single-blog -->
+                      </div>
+                      <!-- /.col- -->
+                    </div>
+                  </div>
+                  <!-- /.col- -->
+                </div>
+                <!-- /.row -->
+              
+              </div>
+          </div>
+
+
+              <!-- /.row -->
+            </div>
+            <!-- /.wrapper -->
+          </div>
+          <!-- /.container -->
+        </div>
     </div>
   </template>
   
   <script>
   export default {
+    
     data() {
       return {
-        teams: [
-          {
-            id: 1,
-            name: "Saroeun Soeung",
-            position: "Chairman",
-            image: "https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/Team%2FSaroeun%20Soeung.jpg?alt=media&token=d0b00041-a8de-4fd1-a3da-d208e8df8f07"
-          },
-          {
-            id: 2,
-            name: "Vandong Thorn",
-            position: "Founder & CEO",
-            image: "https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/Team%2FVandong%20Thorn.jpg?alt=media&token=c9a431d4-2aa0-4f7a-9373-82af5c1d339c"
-          },
-          {
-            id: 3,
-            name: "Srors Chhon (Bee)",
-            position: "Co-founder & Executive Board",
-            image: "https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/Team%2FSrors%20Chhon.jpg?alt=media&token=a9ae26b9-a141-442d-8e85-9d1d42ae83ff"
-          },
-          {
-            id: 4,
-            name: "Marina Pok",
-            position: "Board Member",
-            image: "https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/Team%2FMarina%20Pok.jpg?alt=media&token=53724df0-02de-4083-bdb2-666a6d16df45"
-          },
-          {
-            id: 5,
-            name: "Timol Pen",
-            position: "Independent Board Member",
-            image: "https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/Team%2FTimol%20Pen.jpg?alt=media&token=0a6971d7-eeb6-48ab-a00a-c1dac88ed879"
-          },
-        ]
+        Legals: [
+        {
+          title: "Law on the Organization and Functioning of the Non-Bank Financial Services Authority",
+          desc: 'A Cambodian law that regulates and supervises non-bank financial institutions through the Non-Bank Financial Services Authority.',
+          img: 'https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/En_Law_on_the_Organization_and_Functioning_of_the_Non_Bank_Financial.jpg?alt=media&token=5373eb8d-9c13-4940-ae75-aa78895736b9',
+          link: 'https://drive.google.com/file/d/1Slf5xMIInjynYojw4z8ljxaL1kkDCabA/view?usp=sharing',
+        },
+        
+      ],
+      Knowledges: [
+        {
+          title: "Impact Investment Ecosystem",
+          desc: 'Impact investment emerged in 2007 when Antony Bugg-Levine suggested using capital markets to support social enterprises for solving global problems beyond what governments and philanthropy can provide.',
+          img: 'https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/Impact%20Investment%20Ecosystem-01.jpg?alt=media&token=f888a9ef-083d-450b-b348-b16b2c986be5',
+          link: 'https://drive.google.com/file/d/1B4HOdQCm__7TJL7-oO7O5U6IYR3qVF-G/view?usp=sharing',
+        },
+        
+      ],
+
       };
     },
     methods: {
+      handleHover(hovered) {
+        this.isHovered = hovered
+      }
     }
   };
   </script>

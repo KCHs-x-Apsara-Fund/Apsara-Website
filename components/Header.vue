@@ -27,7 +27,15 @@
                       </a
                     >
 
-                    
+                    <a v-bind:class="{ active: currentRoute === '/service' }"
+                      >
+                      <NuxtLink to="/service">
+                      <button class="dropdown-item" type="button">
+                        Services
+                      </button>
+                    </NuxtLink>
+                      </a
+                    >
 
 
                     <a  v-bind:class="{ active: currentRoute === '/why' }"
@@ -41,15 +49,7 @@
                       </a
                     >
 
-                    <a v-bind:class="{ active: currentRoute === '/service' }"
-                      >
-                      <NuxtLink to="/service">
-                      <button class="dropdown-item" type="button">
-                        Services
-                      </button>
-                    </NuxtLink>
-                      </a
-                    >
+                    
 
                     <a v-bind:class="{ active: currentRoute === '/sources' }"
                     ><NuxtLink to="/sources">
@@ -90,19 +90,19 @@
                     <a style="font-weight: bold;">About Us</a>
                   </NuxtLink>
                 </li>
-                
-                <li></li>
-                <li v-bind:class="{ active: currentRoute === '/why' }">
-                  <NuxtLink to="/why">
-                    <a style="font-weight: bold;">ESG & Impact Investing</a>
-                  </NuxtLink>
-                </li>
                 <li></li>
                 <li v-bind:class="{ active: currentRoute === '/service' }">
                   <NuxtLink to="/service">
                     <a style="font-weight: bold;">Services</a>
                   </NuxtLink>
                 </li>
+                <li></li>
+                <li v-bind:class="{ active: currentRoute === '/why' }">
+                  <NuxtLink to="/why">
+                    <a style="font-weight: bold;">ESG & Impact Investing</a>
+                  </NuxtLink>
+                </li>
+                
                 <li></li>
                 <li v-bind:class="{ active: currentRoute === '/sources' }">
                   <NuxtLink to="/sources">
