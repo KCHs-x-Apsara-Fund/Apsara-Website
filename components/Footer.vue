@@ -37,7 +37,7 @@
 										</NuxtLink>
 									</li>
 									<li>
-										<NuxtLink to="/team">
+										<NuxtLink to="/sources">
 										<a >Sources</a>
 										</NuxtLink>
 									</li>

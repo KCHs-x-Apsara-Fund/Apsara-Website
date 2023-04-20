@@ -78,7 +78,7 @@
         <div class="wrapper">
           <div class="row">
             <div
-            @click="goToDetail"
+
             class="col-lg-4 col-sm-6 col-12">
               <div class="single-solution-block">
                 <img width="200" height="220" src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/icons%2F5%20Services%20Icon%20-%20APSARA-03.png?alt=media&token=cb04d4f0-af76-4545-b4af-c185d46e9d37" alt="" class="icon" />
@@ -92,7 +92,7 @@
               <!-- /.single-solution-block -->
             </div>
             <!-- /.col- -->
-            <div  @click="goToDetail" class="col-lg-4 col-sm-6 col-12">
+            <div   class="col-lg-4 col-sm-6 col-12">
               <div class="single-solution-block">
                 <img width="200" height="220" src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/icons%2F5%20Services%20Icon%20-%20APSARA-06.png?alt=media&token=eae5bf31-6cee-4055-852d-1356267b4d25" alt="" class="icon" />
                 <h5><a>Investment Matching</a></h5>
@@ -104,7 +104,7 @@
               <!-- /.single-solution-block -->
             </div>
             <!-- /.col- -->
-            <div     @click="goToDetail" class="col-lg-4 col-sm-6 col-12">
+            <div      class="col-lg-4 col-sm-6 col-12">
               <div class="single-solution-block">
                 <img width="200" height="220" src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/icons%2F5%20Services%20Icon%20-%20APSARA-01.png?alt=media&token=8304f34f-9a2a-4de2-84dc-0b707b28244e" alt="" class="icon" />
                 <h5><a >Crowdfunding Platform</a></h5>
@@ -116,7 +116,7 @@
               <!-- /.single-solution-block -->
             </div>
             <!-- /.col- -->
-            <div     @click="goToDetail" class="col-lg-6 col-sm-6 col-12">
+            <div     class="col-lg-6 col-sm-6 col-12">
               <div class="single-solution-block">
                 <img width="200" height="220" src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/icons%2F5%20Services%20Icon%20-%20APSARA-04.png?alt=media&token=b18f1c76-3078-4fa1-9cfa-46a9888ecf6b" alt="" class="icon" />
                 <h5><a>ESG for Enterprise</a></h5>
@@ -129,7 +129,7 @@
               <!-- /.single-solution-block -->
             </div>
             <!-- /.col- -->
-            <div     @click="goToDetail" class="col-lg-6 col-sm-6 col-12">
+            <div    class="col-lg-6 col-sm-6 col-12">
               <div class="single-solution-block">
                 <img width="200" height="220" src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/icons%2F5%20Services%20Icon%20-%20APSARA-05.png?alt=media&token=f7f2e001-801e-460c-8ccf-cdd5bf83fd22" alt="" class="icon" />
                 <h5><a>APSARA EmpowerU Program</a></h5>
