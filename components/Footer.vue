@@ -28,7 +28,7 @@
 									</li>
 									<li>
 										<NuxtLink to="/service">
-										<a >Services</a>
+										<a >Our Services</a>
 										</NuxtLink>
 									</li>
 									<li>
@@ -51,30 +51,30 @@
 							</div>
 
 							<div class="col-lg-3 col-sm-3 col-10 footer-list">
-								<h6 class="title">SERVICES</h6>
+								<h6 class="title">OUR SERVICES</h6>
 								<ul>
 									<li>
-										<NuxtLink to="/">
+										<NuxtLink to="/service">
+										<a >Trust Fund</a>
+										</NuxtLink>
+									</li>
+									<li>
+										<NuxtLink to="/service">
+										<a >Investment Matching</a>
+										</NuxtLink>
+									</li>
+									<li>
+										<NuxtLink to="/service">
 										<a >Crowdfunding Platform</a>
 										</NuxtLink>
 									</li>
 									<li>
-										<NuxtLink to="/">
-										<a >Pitch Competition</a>
-										</NuxtLink>
-									</li>
-									<li>
-										<NuxtLink to="/">
-										<a >Impact Trust Funds</a>
-										</NuxtLink>
-									</li>
-									<li>
-										<NuxtLink to="/event_news">
+										<NuxtLink to="/service">
 										<a >ESG for Enterprise</a>
 										</NuxtLink>
 									</li>
 									<li>
-										<NuxtLink to="/event_news">
+										<NuxtLink to="/service">
 										<a >APSARA EmpowerU Program</a>
 										</NuxtLink>
 									</li>

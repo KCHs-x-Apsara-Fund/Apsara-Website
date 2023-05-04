@@ -88,66 +88,7 @@
                         <!-- /.single-blog -->
                         <hr class="hr" />
                       </div>
-                      <h5 class="mb-3 pl-2 text-muted">Past Events</h5>
-                      <div
-                        v-for="p_event in past_events"
-                        :key="p_event.title"
-                        class="col-md-12 col-12 mb-4">
-                        <div class="single-blog">
-                          <div class="row">
-                            <div class="image col-12 col-md-3">
-                              <div class="image-box">
-                                <img :src="p_event.img" alt="" />
-                              </div>
-                              <!-- /.image-box -->
-                            </div>
-                            <div class="content-box col-12 col-md-9">
-                              <div class="post-meta">
-                                <h5 class="title">
-                                  <a
-                                    v-if="p_event.title.length < 70"
-                                    :href="'event_detail?id=' + p_event.id"
-                                    >{{ p_event.title }}</a
-                                  >
-                                  <a v-else :href="'event_detail?id=' + p_event.id">{{
-                                    p_event.title.substring(0, 70) + "...."
-                                  }}</a>
-                                </h5>
-                                <div>
-                                  <div class="row">
-                                    <div class="col-12 col-md-3 px-auto">
-                                      <a :href="'event_detail?id=' + p_event.id" class="date">
-                                        <i class="fa fa-calendar"></i>
-                                        {{ p_event.date }}</a
-                                      >
-                                    </div>
-                                    <div class="col-12 col-md-2">
-                                      <a :href="'event_detail?id=' + p_event.id" class="time">
-                                        <i class="fa fa-clock-o"></i>
-                                        {{ p_event.time }}</a
-                                      >
-                                    </div>
-                                    <div class="col-12 col-md-4">
-                                      <a :href="'event_detail?id=' + p_event.id" class="location">
-                                        <i class="fa fa-location-arrow"></i>
-                                        {{ p_event.location }}</a
-                                      >
-                                    </div>
-                                    <div class="d-flex col-12 col-md-3">
-                                      <a
-                                        :href="'event_detail?id=' + p_event.id"
-                                        class="read-more ml-auto">READ MORE</a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <!-- /.post-meta -->
-                            </div>
-                          </div>
-                        </div>
-                        <!-- /.single-blog -->
-                        <hr class="hr" />
-                      </div>
+                    
                     </div>
                   </div>
                   <!-- /.col- -->
@@ -261,29 +202,14 @@ export default {
         }
       ],
       past_events: [
-        {
-          id: 2,
-          title: "24th INTERPOL Asian Regional Conference",
-          date: "Tue 28 Feb, 2023",
-          time: "8:00",
-          location: "Phnom Penh",
-          img: 'https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/1.jpg?alt=media&token=f873d3a1-4755-4369-9995-01bea498eb97'
-        },
-        {
-          id: 3,
-          title: "SME EXPORT TALKS 10: CAMBODIA EXPORT OF SERVICES",
-          date: "Tue 28 Feb, 2023",
-          time: "8:30",
-          location: "Raintree Phnom Penh",
-          img: 'https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/3.png?alt=media&token=8d385e54-ff42-482e-a019-d1711bff1ab0'
-        }
+        
       ],
       up_events: [{
         id: 1,
-        title: 'ACHIEVING ENERGY EFFICIENCY: POLICIES AND BEST PRACTICES',
-        date: 'Fri 17 Mar, 2023',
-        time: '8:00',
-        location: 'Sofitel Phnom Penh Phokeethra',
+        title: 'APSARA EmpowerU',
+        date: 'To-be Confirmed',
+        time: 'To-be Confirmed',
+        location: 'To-be Confirmed',
         img: 'https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/2.png?alt=media&token=0ee67dd0-a231-4ff9-ac2f-f49a5e398b33'
       }]
     };

@@ -156,6 +156,7 @@
         </div>
         <!-- /.container -->
       </div>
+
   </div>
 </template>
 
@@ -180,17 +181,17 @@ export default {
           linkedin : "https://www.linkedin.com/in/saroeun-soeung-89388b1b/"
         },
         {
-          id: 2,
+          id: 2, 
           name: "Vandong Thorn",
-          position: "Founder & CEO",
-          image: "https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/Team%2FVandong%20Thorn.jpg?alt=media&token=c9a431d4-2aa0-4f7a-9373-82af5c1d339c"
+          position: "Founder & Board Member",
+          image: "https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/Team%2FVandong%20Thorn.png?alt=media&token=913d22ef-a652-4605-84bd-1e2b8b291301"
           ,linkedin : "https://www.linkedin.com/in/vandong-thorn-63063977/"
         },
         {
           id: 3,
           name: "Srors Chhon (Bee)",
-          position: "Co-founder & Executive Board",
-          image: "https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/Team%2FSrors%20Chhon.jpg?alt=media&token=a9ae26b9-a141-442d-8e85-9d1d42ae83ff"
+          position: "Co-founder & Board Member",
+          image: "https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/Team%2FSrors%20Chhon.png?alt=media&token=99807407-4c69-4319-9725-769f6ca48f27"
           ,linkedin : "https://www.linkedin.com/in/chhon-srors-bee-49b2144a/"
         },
         {

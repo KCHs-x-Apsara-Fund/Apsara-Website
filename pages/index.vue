@@ -163,7 +163,7 @@
 				</div> <!-- /.overlay -->
 			</div> <!-- /.short-banner -->
 
-        <Portfolio />
+      <Portfolio />
 
       <div class="our-case event-news section-spacing ">
       <div class="container">

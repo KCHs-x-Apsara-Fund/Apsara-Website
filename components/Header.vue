@@ -31,7 +31,7 @@
                       >
                       <NuxtLink to="/service">
                       <button class="dropdown-item" type="button">
-                        Services
+                        Our Services
                       </button>
                     </NuxtLink>
                       </a
@@ -93,7 +93,7 @@
                 <li></li>
                 <li v-bind:class="{ active: currentRoute === '/service' }">
                   <NuxtLink to="/service">
-                    <a style="font-weight: bold;">Services</a>
+                    <a style="font-weight: bold;">Our Services</a>
                   </NuxtLink>
                 </li>
                 <li></li>
