@@ -106,7 +106,7 @@
                       >
                         <div class="single-blog">
                           <div class="image-box">
-                            <img src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/3.png?alt=media&token=8d385e54-ff42-482e-a019-d1711bff1ab0" alt="" />
+                            <img src="https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/3.jpg?alt=media&token=8ca69686-1df8-47cd-9666-21d8f709b092" alt="" />
                             <div class="overlay">
                               <a href="#" class="date">{{ news.date }}</a>
                             </div>
@@ -185,21 +185,6 @@ export default {
           desc: 'Impact investing integrates financial returns with positive social or environmental impact. This impact may be quantified in terms of access to products and services, or economic opportunities for excluded communities, such as affordable mortgages to poor households or jobs for rural women.',
           date: "Feb 06, 2023"
         },
-        {
-          title: "What is Impact Investing?",
-          desc: 'Impact investing integrates financial returns with positive social or environmental impact. This impact may be quantified in terms of access to products and services, or economic opportunities for excluded communities, such as affordable mortgages to poor households or jobs for rural women.',
-          date: "Feb 06, 2023"
-        },
-        {
-          title: "What is Impact Investing?",
-          desc: 'Impact investing integrates financial returns with positive social or environmental impact. This impact may be quantified in terms of access to products and services, or economic opportunities for excluded communities, such as affordable mortgages to poor households or jobs for rural women.',
-          date: "Feb 06, 2023"
-        },
-        {
-          title: "What is Impact Investing?",
-          desc: 'Impact investing integrates financial returns with positive social or environmental impact. This impact may be quantified in terms of access to products and services, or economic opportunities for excluded communities, such as affordable mortgages to poor households or jobs for rural women.',
-          date: "Feb 06, 2023"
-        }
       ],
       past_events: [
         
@@ -210,7 +195,7 @@ export default {
         date: 'To-be Confirmed',
         time: 'To-be Confirmed',
         location: 'To-be Confirmed',
-        img: 'https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/2.png?alt=media&token=0ee67dd0-a231-4ff9-ac2f-f49a5e398b33'
+        img: 'https://firebasestorage.googleapis.com/v0/b/apsara-fund.appspot.com/o/11-01.jpg?alt=media&token=3d13e751-68d7-424a-9160-e49a40144cfa'
       }]
     };
   },
