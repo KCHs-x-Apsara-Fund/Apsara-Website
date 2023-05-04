@@ -42,7 +42,7 @@
                       >
                       <NuxtLink to="/why">
                       <button class="dropdown-item" type="button">
-                        ESG & Impact Investing
+                        Impact Investing
                       </button>
                       </NuxtLink>
 
@@ -99,7 +99,7 @@
                 <li></li>
                 <li v-bind:class="{ active: currentRoute === '/why' }">
                   <NuxtLink to="/why">
-                    <a style="font-weight: bold;">ESG & Impact Investing</a>
+                    <a style="font-weight: bold;">Impact Investing</a>
                   </NuxtLink>
                 </li>
                 

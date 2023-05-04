@@ -33,7 +33,7 @@
 									</li>
 									<li>
 										<NuxtLink to="/why">
-										<a >ESG & Impact Investing</a>
+										<a >Impact Investing</a>
 										</NuxtLink>
 									</li>
 									
