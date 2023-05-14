@@ -322,7 +322,7 @@ body .theme-button-one:hover {background:#000f32; }
 .header-two .top-header .social-icon li a:hover {color: #fff;}
 /*------------------------ Theme menu One --------------------*/
 .header-one .theme-menu-wrapper {position: relative;z-index: 99;margin-bottom: -42px;}
-.header-one .theme-menu-wrapper .bg-wrapper {background: #000f32;position: relative;padding-left: 25px;}
+.header-one .theme-menu-wrapper .bg-wrapper {background: #000f32;position: relative;padding-left: 15px;}
 .theme-menu-wrapper .right-widget ul li {display: inline-block;line-height: 75px;vertical-align: middle;}
 .theme-menu-wrapper .right-widget .social-icon li a {
   font-size: 15px;
